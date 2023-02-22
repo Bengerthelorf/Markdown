@@ -6,6 +6,6 @@ Tensor = Mulydimensional arrays
 
 
 # Question
-- what is the .ipynb file?
+- what is .ipynb file?
   - An IPYNB file is a notebook document created by ==Jupyter Notebook==, an interactive computational environment that helps scientists manipulate and analyze data using Python.
 
