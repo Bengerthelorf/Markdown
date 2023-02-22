@@ -8,8 +8,8 @@
 you can use windows native package manager `winget` to install `git` and `vscode`.
 Open powershell and type the following commands.
 ```powershell
-winget install -e --id "Git.Git"
-wnget install -e --id "Microsoft.VisualStudioCode"
+winget install --id "Git.Git" --source "winget"
+wnget install --id "Microsoft.VisualStudioCode" --source "winget"
 ```
 
 #### GUI
