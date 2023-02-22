@@ -1,4 +1,4 @@
-***If you want to contribute to the project, you can fork the project and submit a pull request. If you want to contribute to the project, you can fork the project and submit a pull request.***
+***If you want to contribute to the project, you can fork the project and submit a pull request.***
 
 # Installation
 ## For windows Users
