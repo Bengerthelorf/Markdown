@@ -3,11 +3,17 @@
 # Installation
 ## For windows Users
 ### Windows 10 or above
+
+#### command line (Recommeded)
 you can use windows native package manager `winget` to install `git` and `vscode`.
+Open powershell and type the following commands.
 ```powershell
 winget install -e --id "Git.Git"
 wnget install -e --id "Microsoft.VisualStudioCode"
 ```
+
+#### GUI
+you can also download the installer from the official website.
 
 ### Windows 7 or 8
 
@@ -28,6 +34,23 @@ sudo snap install --classic code
 sudo dnf install git
 sduo dnf install code
 ```
+
+## For Mac Users
+
+### Mac OS X 10.9 or above
+
+#### command line 
+```bash
+brew install git
+brew cask install visual-studio-code
+```
+
+#### GUI
+you can download the installer from the official website.
+
+### Mac OS X 10.8 or below
+
+you can download the installer from the official website.
 
 # Usage
 
