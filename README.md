@@ -1,5 +1,22 @@
 ***If you want to contribute to the project, you can fork the project and submit a pull request.***
 
+- [Installation](#installation)
+  - [For windows Users](#for-windows-users)
+    - [Windows 10 or above](#windows-10-or-above)
+      - [command line (Recommeded)](#command-line-recommeded)
+      - [GUI](#gui)
+    - [Windows 7 or 8](#windows-7-or-8)
+  - [For Linux Users](#for-linux-users)
+    - [Ubuntu and Debian](#ubuntu-and-debian)
+    - [Fedora](#fedora)
+  - [For Mac Users](#for-mac-users)
+    - [Mac OS X 10.9 or above](#mac-os-x-109-or-above)
+      - [command line](#command-line)
+      - [GUI](#gui-1)
+    - [Mac OS X 10.8 or below](#mac-os-x-108-or-below)
+- [Usage](#usage)
+
+
 # Installation
 ## For windows Users
 ### Windows 10 or above
