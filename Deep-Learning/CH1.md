@@ -119,27 +119,37 @@ Email: deeplearning.fudan@yandex.com
 
 ## 2.2. 监督学习
 1. Given training data
+  
   $$
   \{ x_{1},y_{1} \} ^{N}_{i=1}
   $$
+
 2. Choose each of these
    - Decision Function
+  
   $$
   \hat{y}=f _\theta (x_i)
   $$
-   - loss function
+  
+  - loss function
+  
   $$
   \mathscr{L}(\hat{y},y) \in \mathbb{R}
   $$
+
 3. Define goal
+  
   $$
   \theta ^* = arg \underset{\theta}{min} \sum _{i=1} ^N \mathscr{L}(f _\theta (x_i) ,y)
   $$
+
 4. Train with SGD
   (take small steps opposite the gradient)
+  
   $$
   \theta ^{(t+1)} = \theta ^{(t)} - \eta _t \nabla \mathscr{L}(f _\theta (x_i) ,y _i)
   $$
+  
   i.e. Adam (?)
   *PS.为什么有时候梯度求错了结果反而更好* :D
 
