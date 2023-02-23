@@ -6,11 +6,12 @@
   - [监督学习](#监督学习)
 - [神经网络](#神经网络)
   - [CNN](#cnn)
-- [表示学习](#表示学习)
+- [表示学习 (表征学习)](#表示学习-表征学习)
 - [深度学习](#深度学习)
   - [浅层学习 `shallow learning` VS. 深度学习 `deep learning`](#浅层学习-shallow-learning-vs-深度学习-deep-learning)
     - [`shallow learning`](#shallow-learning)
 - [发展历史](#发展历史)
+- [DL related `examples`](#dl-related-examples)
 - [PS.](#ps)
 
 
@@ -127,11 +128,21 @@ A computer program is said to learn from experience **E** with respect to some c
 
 - 对卷积神经网络如何实现更好的结果的原因仍在研究
 
-# 表示学习
+# 表示学习 (表征学习)
+
+重要的原因:
+- 对于冗余性很大的数据, 比如照片的识别, 就是一个很需要表征学习的内容
+- 或者例如如下这张照片, 线性可分的话是不需要的, 但是如果不是线性可分, 就是经常利用表观学习能更容易地得到更好的结果
 
 # 深度学习
 
 ## 浅层学习 `shallow learning` VS. 深度学习 `deep learning`
+
+shallow learning vs. deep learning table:
+|shallow learning|deep learning|
+|:---:|:---:|
+
+
 
 ### `shallow learning`
 - SIFT
@@ -141,9 +152,25 @@ A computer program is said to learn from experience **E** with respect to some c
 
 # 发展历史
 
+- 卷⼟重来的（深度）神经⽹络
+  原因:
+  - 优化策略
+  - 数据规模
+    - 社会标注 (crowdsourcing)
+  - 计算能⼒
+
+# DL related `examples`
+- 最初的震撼
+来源于语音识别
+开始时的模型是GMM (高斯混合模型), 但是当深度学习到来之后,由于声音是一个一维的数据, 适合于早期的深度学习
+
+
+
 ---
 # PS.
 回去看看统计学习
   花书 Ch5
   - 前五章是ML, 要先读懂捏,寄寄
   - 寄寄力, 寄寄子, 寄寄力, 呜呜呜
+
+CS2302 FEIFEI LEE, computer vision. suitable for selfteaching
