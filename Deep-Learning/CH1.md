@@ -13,6 +13,8 @@
     - [`shallow learning`](#shallow-learning)
 - [发展历史](#发展历史)
 - [DL related `examples`](#dl-related-examples)
+  - [最初的震撼](#最初的震撼)
+  - [Object detection and sagmentation](#object-detection-and-sagmentation)
 - [PS.](#ps)
 
 
@@ -162,10 +164,11 @@ shallow learning vs. deep learning table:
   - 计算能⼒
 
 # DL related `examples`
-- 最初的震撼
+## 最初的震撼
 来源于语音识别
 开始时的模型是GMM (高斯混合模型), 但是当深度学习到来之后,由于声音是一个一维的数据, 适合于早期的深度学习
-
+## Object detection and sagmentation
+Autodrive's Objection detection and sagmention already can sagemnte 3D object now
 
 
 ---
