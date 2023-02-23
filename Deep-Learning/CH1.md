@@ -254,8 +254,15 @@ Autodrive's Objection detection and sagmention already can segmente object in "3
   - 前五章是ML, 要先读懂捏, 寄寄
   - 寄寄力, 寄寄子, 要寄寄力, 呜呜呜
 
-CS2302 *FEIFEI LEE*, computer vision. suitable for selfteaching
+CS231n *FEIFEI LEE*, computer vision. suitable for selfteaching
 
+to-do list:
+- [ ] ch1
+- [ ] ch2
+- [ ] ch3
+- [ ] ch4
+- [ ] ch5
+- [ ] CS231n
 
 # 9. Footnote
 
