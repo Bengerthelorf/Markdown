@@ -173,4 +173,4 @@ shallow learning vs. deep learning table:
   - 前五章是ML, 要先读懂捏,寄寄
   - 寄寄力, 寄寄子, 寄寄力, 呜呜呜
 
-CS2302 FEIFEI LEE, computer vision. suitable for selfteaching
+CS2302 `FEIFEI LEE`, computer vision. suitable for selfteaching
