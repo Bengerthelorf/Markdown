@@ -25,6 +25,7 @@
 ***PS. 第三周会讲pytorch***
 
 Office hours: 周四周五 3-5.30pm
+
 Email: deeplearning.fudan@yandex.com
 
 ***Textbook***
@@ -32,7 +33,7 @@ Email: deeplearning.fudan@yandex.com
 - 邱 书
 - 听不懂,过于垃圾的英语口音
 
-前置课程--统计机器学习
+前置课程 --> 统计机器学习
 
 - Final scorce =
   - +Class attendance/discussion (10%);
@@ -155,10 +156,11 @@ Email: deeplearning.fudan@yandex.com
 
 >梯度下降是一种优化算法，用于寻找一个可微函数的局部最小值。它的思想是在当前点沿着函数的负梯度方向（即最快下降的方向）重复地走一小步，因为这样可以减少函数的值[^1] [^2]
 有时候，梯度求错了结果反而更好，可能是因为你遇到了以下情况之一：
-- 函数本身不是凸的，有多个局部最小值或鞍点。在这种情况下，正确的梯度可能会导致你陷入一个不理想的局部最小值或鞍点，而错误的梯度可能会让你跳出去，找到一个更好的解[^2]。
-- 步长（或学习率）太大，导致你在最优解附近震荡。在这种情况下，正确的梯度可能会让你远离最优解，而错误的梯度可能会让你靠近它[^2]。
-- 误差函数有噪声或随机性。在这种情况下，正确的梯度可能不稳定或不准确，而错误的梯度可能恰好与真实的梯度接近[^2]。
-不同的函数和数据进行梯度下降，其结果回大有不同
+> - 函数本身不是凸的，有多个局部最小值或鞍点。在这种情况下，正确的梯度可能会导致你陷入一个不理想的局部最小值或鞍点，而错误的梯度可能会让你跳出去，找到一个更好的解[^2]。
+> - 步长（或学习率）太大，导致你在最优解附近震荡。在这种情况下，正确的梯度可能会让你远离最优解，而错误的梯度可能会让你靠近它[^2]。
+> - 误差函数有噪声或随机性。在这种情况下，正确的梯度可能不稳定或不准确，而错误的梯度可能恰好与真实的梯度接近[^2]。
+> 
+>不同的函数和数据进行梯度下降，其结果回大有不同
 
 
 # 3. 神经网络
@@ -195,6 +197,7 @@ Email: deeplearning.fudan@yandex.com
 |low accuracy|high accuracy|
 
 - diffusely:
+
 Here is a table that compares shallow learning and deep learning based on some criteria[^3] [^4] [^5] [^6] [^7] [^8] [^9] [^10] [^11] [^12] [^13] [^14] [^15] [^16]:
 
 | Criteria | Shallow Learning | Deep Learning |
@@ -237,6 +240,7 @@ Here is a table that compares shallow learning and deep learning based on some c
 # 7. DL related examples
 ## 7.1. The initial shock
 来源于语音识别
+
 开始时的模型是GMM (Gaussian Mixture Models, 高斯混合模型), 但是当深度学习到来之后,由于声音是一个一维的数据, 适合于早期的深度学习
 ## 7.2. Object detection and sagmentation
 Autodrive's Objection detection and sagmention already can segmente object in "3D way" now.
@@ -245,7 +249,8 @@ Autodrive's Objection detection and sagmention already can segmente object in "3
 ---
 # 8. PS.
 回去看看统计学习
-  花书 Ch5
+
+——花书 Ch5
   - 前五章是ML, 要先读懂捏, 寄寄
   - 寄寄力, 寄寄子, 要寄寄力, 呜呜呜
 
