@@ -10,18 +10,19 @@
 - [4. 表示学习 (表征学习)](#4-表示学习-表征学习)
 - [5. 深度学习](#5-深度学习)
   - [5.1. 浅层学习 *shallow learning* VS. 深度学习 *deep learning*](#51-浅层学习-shallow-learning-vs-深度学习-deep-learning)
-    - [5.1.1. shallow learning vs. deep learning table:](#511-shallow-learning-vs-deep-learning-table)
+    - [5.1.1. shallow learning vs. deep learning table](#511-shallow-learning-vs-deep-learning-table)
     - [5.1.2. shallow learning models](#512-shallow-learning-models)
 - [6. 发展历史](#6-发展历史)
 - [7. DL related examples](#7-dl-related-examples)
   - [7.1. The initial shock](#71-the-initial-shock)
   - [7.2. Object detection and sagmentation](#72-object-detection-and-sagmentation)
-- [8. PS.](#8-ps)
+- [8. PS](#8-ps)
 - [9. Footnote](#9-footnote)
 
-
 # 1. couse information
+
 ## 1.1. Abstract
+
 ***PS. 第三周会讲pytorch***
 
 Office hours: 周四周五 3-5.30pm
@@ -29,6 +30,7 @@ Office hours: 周四周五 3-5.30pm
 Email: deeplearning.fudan@yandex.com
 
 ***Textbook***
+
 - 花皮书 (为主)
 - 邱 书
 - 听不懂,过于垃圾的英语口音
@@ -50,6 +52,7 @@ Email: deeplearning.fudan@yandex.com
   - Worth doing it!!
 
 ## 1.2. Conferences
+
 - OpenAI 网站
   - 网站上post的就算是发表了 :D
 - Machine Learning
@@ -84,6 +87,7 @@ Email: deeplearning.fudan@yandex.com
   - ACL/EMNLP/COLING
 
 ## 1.3. Joural
+
 - ML & AI
   - JMRL
   > 偏重理论的
@@ -101,6 +105,7 @@ Email: deeplearning.fudan@yandex.com
   - IEEE Transactions on Knowledge and Data Engineering (TKDE)
 
 # 2. 人工智能
+
 - 符号主义方法
   
 - 联结主义方法
@@ -119,6 +124,7 @@ Email: deeplearning.fudan@yandex.com
 - E --> Training experience
 
 ## 2.2. 监督学习
+
 1. Given training data
   
   $$
@@ -132,7 +138,7 @@ Email: deeplearning.fudan@yandex.com
   \hat{y}=f _\theta (x_i)
   $$
   
-  - loss function
+   - loss function
   
   $$
   \mathscr{L}(\hat{y},y) \in \mathbb{R}
@@ -157,17 +163,18 @@ Email: deeplearning.fudan@yandex.com
 
 >梯度下降是一种优化算法，用于寻找一个可微函数的局部最小值。它的思想是在当前点沿着函数的负梯度方向（即最快下降的方向）重复地走一小步，因为这样可以减少函数的值[^1] [^2]
 有时候，梯度求错了结果反而更好，可能是因为你遇到了以下情况之一：
+>
 > - 函数本身不是凸的，有多个局部最小值或鞍点。在这种情况下，正确的梯度可能会导致你陷入一个不理想的局部最小值或鞍点，而错误的梯度可能会让你跳出去，找到一个更好的解[^2]。
 > - 步长（或学习率）太大，导致你在最优解附近震荡。在这种情况下，正确的梯度可能会让你远离最优解，而错误的梯度可能会让你靠近它[^2]。
 > - 误差函数有噪声或随机性。在这种情况下，正确的梯度可能不稳定或不准确，而错误的梯度可能恰好与真实的梯度接近[^2]。
-> 
+>  
 >不同的函数和数据进行梯度下降，其结果回大有不同
-
 
 # 3. 神经网络
 
 ## 3.1. CNN
-- CNN 各层实际上的输入的数据的可视化: 
+
+- CNN 各层实际上的输入的数据的可视化:
   ![CNN各层实际上的输入的数据的可视化](https://dsm04pap003files.storage.live.com/y4mCt4Y9P9o8Elp5VAPRz_b2WFM_8CY6spITt-fEO4liM9jr91ySE5RLX4YJQ1pR-sNFr_NkXqmEsZrq1NNMI_Bc0CJNn3tG74d2zk6STNLqiCm45_PbUQirpbSBjGpNNdx6jvKwi88Sa1dwb7fYrgnh901ke3BLMVxlUPDUhAdGrKA7w3uLtBfzeqk7cQvSlQn?width=993&height=783&cropmode=none)
   You can see it, with the increase in layers the detailed features of the images increase. At the very beginning, the images are just matrixes of pixels, but at the end, the images are matrixes of features. You can kinda recognize the objects in the image and eventually their identity is found by CNN.
 - 对卷积神经网络如何实现更好的结果的原因仍在研究
@@ -175,6 +182,7 @@ Email: deeplearning.fudan@yandex.com
 # 4. 表示学习 (表征学习)
 
 重要的原因:
+
 - 对于冗余性很大的数据, 比如照片的识别, 就是一个很需要表征学习的内容
 - 或者例如如下这张照片, 线性可分的话是不需要的, 但是如果不是线性可分, 就是经常利用表观学习能更容易地得到更好的结果
 
@@ -182,7 +190,7 @@ Email: deeplearning.fudan@yandex.com
 
 ## 5.1. 浅层学习 *shallow learning* VS. 深度学习 *deep learning*
 
-### 5.1.1. shallow learning vs. deep learning table:
+### 5.1.1. shallow learning vs. deep learning table
 
 - concisely:
 
@@ -211,13 +219,15 @@ Here is a table that compares shallow learning and deep learning based on some c
 | Scalability with data | Low, converges at a certain level of performance.  | High, improves with more data. |
 
 ### 5.1.2. shallow learning models
+
 - SIFT
 - STIP
 - SLAM
 
-
 # 6. 发展历史
+
 ![Brief History of AI](https://dsm04pap003files.storage.live.com/y4m55sWvC2yZZBn2ZZiW75vGyMRaOok8mmPTEu9JJyJQGc1eqQbzbK5_FCV-22Y30nizpIA4BYOt0FbWEjD2hhzRF6Tw82FZ3sgOC8EG1b3AjqgJFaXNaQoqGLQ9FP-mYX05pZjLGYr9ClNZWgTgWYnEjkajdEIXl1Lal0tfHcMmRcixv98ipN5N0VyFGpgjmq0?width=1711&height=400&cropmode=none)
+
 - 神经元进入计算领域的视野
 - 神经网络的第一次寒冬
 - 反向传播算法(Backpropagation, BP)的出现
@@ -239,25 +249,32 @@ Here is a table that compares shallow learning and deep learning based on some c
 - 开源框架
 
 # 7. DL related examples
+
 ## 7.1. The initial shock
+
 来源于语音识别
 
 开始时的模型是GMM (Gaussian Mixture Models, 高斯混合模型), 但是当深度学习到来之后,由于声音是一个一维的数据, 适合于早期的深度学习
+
 ## 7.2. Object detection and sagmentation
+
 Autodrive's Objection detection and sagmention already can segmente object in "3D way" now.
 
-
 ---
-# 8. PS.
+
+# 8. PS
+
 回去看看统计学习
 
 ——花书 Ch5
-  - 前五章是ML, 要先读懂捏, 寄寄
-  - 寄寄力, 寄寄子, 要寄寄力, 呜呜呜
+
+- 前五章是ML, 要先读懂捏, 寄寄
+- 寄寄力, 寄寄子, 要寄寄力, 呜呜呜
 
 CS231n *FEIFEI LEE*, computer vision. suitable for selfteaching
 
 to-do list:
+
 - [ ] ch1
 - [ ] ch2
 - [ ] ch3
