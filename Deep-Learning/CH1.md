@@ -275,7 +275,7 @@ CS231n *FEIFEI LEE*, computer vision. suitable for selfteaching
 
 to-do list:
 
-- [ ] ch1
+- [x] ch1
 - [ ] ch2
 - [ ] ch3
 - [ ] ch4
