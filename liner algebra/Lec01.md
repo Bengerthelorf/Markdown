@@ -1,4 +1,19 @@
-# linear combination of the columns
+- [1. linear combination of the columns](#1-linear-combination-of-the-columns)
+  - [1.1. Linear combination](#11-linear-combination)
+    - [1.1.1. What is linear combination?](#111-what-is-linear-combination)
+      - [1.1.1.1. linear combination of the columns](#1111-linear-combination-of-the-columns)
+        - [1.1.1.1.1. how to define it?](#11111-how-to-define-it)
+        - [1.1.1.1.2. Well, if we take all the xs and ys, all the combinations, what would be all the results?](#11112-well-if-we-take-all-the-xs-and-ys-all-the-combinations-what-would-be-all-the-results)
+- [2. three equations and three unknowns](#2-three-equations-and-three-unknowns)
+  - [2.1. Do the linear combinations of the columns fill the whole three-dimensional space?](#21-do-the-linear-combinations-of-the-columns-fill-the-whole-three-dimensional-space)
+  - [2.2. Multiplication](#22-multiplication)
+    - [2.2.1. how to multiply a matrix bt a vector?](#221-how-to-multiply-a-matrix-bt-a-vector)
+  - [2.3. One column at a time](#23-one-column-at-a-time)
+  - [2.4. One row at a time](#24-one-row-at-a-time)
+- [3. $ \mathbf{A} \mathbf{x} $ is the combination of the columns of $ \mathbf{A} $](#3--mathbfa-mathbfx--is-the-combination-of-the-columns-of--mathbfa-)
+
+
+# 1. linear combination of the columns
 
 First let's take a example, ==two equations and two unknowns==:
 
@@ -22,11 +37,11 @@ $$
 
 And apparently, this equation's solution is $ \begin{cases} x = 1 \\ y = 2 \end{cases} $, but how to solve a two unknows equation is not the thing we want to talk about, so now let's get into the topic, linear regression.
 
-## Linear combination
+## 1.1. Linear combination
 
-### What is linear combination?
+### 1.1.1. What is linear combination?
 
-#### linear combination of the columns
+#### 1.1.1.1. linear combination of the columns
 
 Now let's get into the column picture, using the example above, we can write the equation as:
 
@@ -36,7 +51,7 @@ y\begin{bmatrix} -1 \\ 2 \end{bmatrix} =
 \begin{bmatrix} 0 \\ 3 \end{bmatrix}
 $$
 
-##### how to define it?
+##### 1.1.1.1.1. how to define it?
 
  well you can see there is the first column, $ \begin{bmatrix} 2 \\ -1 \end{bmatrix} $ and the second column, $ \begin{bmatrix} -1 \\ 2 \end{bmatrix} $, and the thid column on the other side of the equal sign, $ \begin{bmatrix} 0 \\ 3 \end{bmatrix} $, and the first column combined with $ x $, the second column combined with $ y $, and the third column, well you can assume it combined with $ 1 $, so here it is, not any definitions are needed, just think about it, and you will get it, ituitively.
 
@@ -44,11 +59,11 @@ well now you can draw the picture of the two vectors above, and the, vector $ (2
 
 So now let's get a combination, we need to take A right combination witch can produce the third column $ (0, 3) $, so let's try $ x = 1, y = 2 $, and we get the result. (Of course, you can try to draw the picture of it, make the vector 2 twice the length, and combine with vector 1, and you will get the vetctor 3, but anyway, it doesn't matter, it's no needed to waste time on it.)
 
-##### Well, if we take all the xs and ys, all the combinations, what would be all the results?
+##### 1.1.1.1.2. Well, if we take all the xs and ys, all the combinations, what would be all the results?
 
 It's obvious that all the results, all the vectors we get will fill the whole plane
 
-# three equations and three unknowns
+# 2. three equations and three unknowns
 
 well it' easy to figure out two equiations' example, cause it's very easy to pictire the 2 by 2 case, now let's move on to the 3 by 3 case.
 
@@ -99,7 +114,7 @@ OK, now it give us a question:
 
 so now let' put this words into linear combination words:
 
-## Do the linear combinations of the columns fill the whole three-dimensional space?
+## 2.1. Do the linear combinations of the columns fill the whole three-dimensional space?
 
 First, for this equations the answer will be **YES**
 - because this matrix is a non-singular matrix, a invertible matrix.
@@ -109,7 +124,7 @@ well, if you want to find a matrix that can't fill the whole three-dimensional s
 
 Ok, now let's get back to the matrix form of the equations, and how to calculate it.
 
-## Multiplication
+## 2.2. Multiplication
 
 let's get back to the general form of the matrix form of the equations:
 
@@ -126,13 +141,13 @@ $$
 \begin{bmatrix} 1 \\ 2 \end{bmatrix}
 $$
 
-### how to multiply a matrix bt a vector?
+### 2.2.1. how to multiply a matrix bt a vector?
 
 well it has two ways.
 
 let's start with the:
 
-## One column at a time
+## 2.3. One column at a time
 
 $$
 \begin{bmatrix} 2 & 5 \\ 1 & 3 \end{bmatrix}
@@ -161,7 +176,7 @@ boom! we get the result.
 
 but now let's try to do it in another way:
 
-## One row at a time
+## 2.4. One row at a time
 
 This is the idea of dot product.
 
@@ -185,6 +200,6 @@ well since I'm not very good at LaTeX, just keep in mind the keyword is： ***KI
 
 but hey, now the key point is:
 
-# $ \mathbf{A} \mathbf{x} $ is the combination of the columns of $ \mathbf{A} $ 
+# 3. $ \mathbf{A} \mathbf{x} $ is the combination of the columns of $ \mathbf{A} $ 
 
 $ \mathbf{A} \mathbf{x} $ is the combination of the columns of $ \mathbf{A} $ 
