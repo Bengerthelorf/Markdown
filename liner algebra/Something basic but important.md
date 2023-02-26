@@ -21,3 +21,17 @@ and the result is:
 ```
 
 so please remember that, `column times row = result`, `colume to row`
+
+well, If you looking for some kinda "traditional" way to do it, then `row to column` actually.
+
+$$
+\begin{bmatrix} 2 & 5 \\ 1 & 3 \end{bmatrix}
+\begin{bmatrix} 1 \\ 2 \end{bmatrix} =
+\begin{bmatrix}
+    \begin{bmatrix} 2 \\ 5 \end{bmatrix} .
+    \begin{bmatrix} 1 \\ 2 \end{bmatrix} \\
+    \begin{bmatrix} 1 \\ 3 \end{bmatrix} .
+    \begin{bmatrix} 1 \\ 2 \end{bmatrix}
+\end{bmatrix} =
+\begin{bmatrix} 12 \\ 7 \end{bmatrix}
+$$
