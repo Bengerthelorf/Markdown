@@ -1,10 +1,12 @@
-well, this lecture is about matrix **multiplication** and  **inverses**, and so on, which I do not have interest in, so I just skip it.
+# well, this lecture is about matrix **multiplication** and  **inverses**, and so on, which I do not have interest in, so I just skip it.
 
 go python, `import numpy as np`, then you can do anything you want.
 
+# OHH
+
 OHH, I just come up with a new idea about what actually the inverse of a matrix is. well, if you do the elimination of a matrix, an upper triangular matrix will be obtained, right? but how to get a identity matrix? you need to `inverses` the matrix, in which you need to do an another elimination, but from the bottom to the top, using this method, you will get a identity matrix, right. so the from bottom to the top elimination is actually what the inverse of a matrix looks like. so if you want to find out whether a matrix is invertible, just do the inverse-elimination, then the result will should the answer.
 
-well I thinks it is still needed to write some down. so, let's take a example:
+# well I thinks it is still needed to write some down. so, let's take a example:
 
 $$
 \begin{bmatrix}
