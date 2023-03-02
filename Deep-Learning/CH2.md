@@ -91,5 +91,46 @@ $$
 
 # Q
 
+## Q1
+
 - AIC
 - QIC
+
+# A --NewBing
+
+## A1
+### 中文及英文检索
+
+QIC和AIC是两种用于模型选择的准则，分别代表准信息准则（Quasi Information Criterion）和赤池信息准则（Akaike Information Criterion）。它们都是基于拟合优度和模型复杂度的权衡，但适用于不同的情况。
+
+QIC是一种用于广义估计方程（GEE）分析的模型选择准则[^3] [^4]，它考虑了相关结构、均值模型和拟似然函数的影响。QIC可以用来比较具有不同相关结构或不同拟似然函数形式的模型，而QICu可以用来比较具有相同相关结构和相同拟似然函数形式但不同均值模型的模型[^4].
+
+AIC是一种用于最大似然估计（MLE）分析的模型选择准则[^5]，它基于信息熵的概念，衡量了模型对数据的描述能力和参数数量。AIC可以用来比较具有相同数据集和相同误差分布假设但不同参数数量或形式的模型，选择最小化AIC值的模型为最优[^5]。
+
+深度学习领域中，通常使用AIC或其变体来进行正则化或超参数调整[^1] [^2]，以避免过拟合或欠拟合问题。QIC在深度学习领域中较少使用，因为它主要针对GEE方法，而GEE方法在深度学习领域中并不常见。
+
+### 英文内容检索
+
+QIC和AIC是两种用于模型选择的准则，分别代表准信息准则（Quasi Information Criterion）和赤池信息准则（Akaike Information Criterion）。它们都是基于拟合优度和模型复杂度的权衡，但适用于不同的情况。
+
+QIC是一种用于广义估计方程（GEE）分析的模型选择准则[^6] [^7]，它考虑了相关结构、均值模型和拟似然函数的影响。QIC可以用来比较具有不同相关结构或不同拟似然函数形式的模型，而QICu可以用来比较具有相同相关结构和相同拟似然函数形式但不同均值模型的模型[^6] [^7]。
+
+AIC是一种用于最大似然估计（MLE）分析的模型选择准则[^8]，它基于信息熵的概念，衡量了模型对数据的描述能力和参数数量。AIC可以用来比较具有相同数据集和相同误差分布假设但不同参数数量或形式的模型，选择最小化AIC值的模型为最优[^8]。
+
+深度学习领域中，通常使用AIC或其变体来进行正则化或超参数调整[^8]，以避免过拟合或欠拟合问题。QIC在深度学习领域中较少使用，因为它主要针对GEE方法，而GEE方法在深度学习领域中并不常见。
+
+
+
+---
+# footnote
+
+Source: Conversation with Bing, 3/2/2023
+[^1]: QIC program and model selection in GEE analyses - SAGE Journals. https://journals.sagepub.com/doi/pdf/10.1177/1536867X0700700205 Accessed 3/2/2023.
+[^2]: QIC: Quasi Information Criterion in geepack: Generalized Estimating .... https://rdrr.io/cran/geepack/man/QIC.html Accessed 3/2/2023.
+[^3]: QAIC: Quasi AIC or AICc in MuMIn: Multi-Model Inference. https://rdrr.io/cran/MuMIn/man/QAIC.html Accessed 3/2/2023.
+[^4]: 深度学习与神经网络:AIC,BIC,L1,L2 - 腾讯云开发者社区-腾讯云. https://cloud.tencent.com/developer/article/1117561 Accessed 3/2/2023.
+[^5]: 深度学习与神经网络:AIC,BIC,L1,L2 - 知乎. https://zhuanlan.zhihu.com/p/36557274 Accessed 3/2/2023.
+
+[^6]: QIC program and model selection in GEE analyses - SAGE Journals. https://journals.sagepub.com/doi/pdf/10.1177/1536867X0700700205 Accessed 3/2/2023.
+[^7]: QIC: Quasi Information Criterion in geepack: Generalized Estimating .... https://rdrr.io/cran/geepack/man/QIC.html Accessed 3/2/2023.
+[^8]: Regression Model Accuracy Metrics: R-square, AIC, BIC, Cp and more .... http://www.sthda.com/english/articles/38-regression-model-validation/158-regression-model-accuracy-metrics-r-square-aic-bic-cp-and-more/ Accessed 3/2/2023.
