@@ -56,3 +56,31 @@ same impoet data, no labels
 
 有 y, 而无监督学习没有 y, 用于数据的预处理 (?)
 
+# 损失函数
+
+## 优缺点
+
+
+||优点|缺点|
+|:-:|:-:|:-:|
+|0-1损失函数|简单, 易于理解|不连续, 不可导|
+|平方损失函数|连续, 可导|不易理解|
+|交叉熵损失函数|连续, 可导, 易于理解|不易理解|
+
+
+# convex and non-convex
+
+即使不关注是否convex, 实际上得到的结果都会得到比较好的结果 (研究点)
+
+# 梯度下降 (gradient descent)
+
+$$
+\theta _{t+1} = \theta _{t} - \alpha \frac{\partial R(\theta)}{\partial \theta}
+$$
+
+由于 R 是需要对全部的数据共同计算的, 所以会造成数据量大时的计算量大
+
+# Q
+
+- AIC
+- QIC
