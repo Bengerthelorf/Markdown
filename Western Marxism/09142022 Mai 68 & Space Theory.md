@@ -164,7 +164,7 @@
 #
 <center>
 
-![graph1](https://dsm04pap003files.storage.live.com/y4mA9TNrRXbDKckgv-0P9e9iHMVOfbKMGQeDeT_WLk75FxXxAAO8boPeITxNA8WZLdnrYjrxuJuvCP2JwMYaAb2O-ApuCIcxhUfD-TbYgvFygUJxbb_b1scpwBqWsuKxpm-rxxJY-v9pfy7B6S8ghCxXsodjF30agfhRvJC4GxEz9gpg8lT8NU0r3LL8GcBBHEk?width=170&height=230&cropmode=none)
+![graph1](https://dsm04pap003files.storage.live.com/y4mKjzXVNxGHhLJH83N9ty469mTm8zPV1TIijZfxJBEohucT6gU_uCtOcHZoE08JqYCrRqinCsu49VkLMROdQv1KswoJ5SA9ixMWi_9KQCFaLgYs92SSdi2SKDp_hXNIwwPVMUsbtZ9pkeLF60TCL84IFIVt2FgaeYDWXcRoxrDTPJscLPDNYrKoOzsUQb6fegR?width=170&height=230&cropmode=none)
 炮台向外：防御性的空间的状态，对空间的保护的
 炮台向上：庆祝的，太平盛世的，祥和的
 炮台向内：极端状态的，维持社会稳定的
@@ -190,7 +190,7 @@
 
 <center>
 
-![graph2](https://dsm04pap003files.storage.live.com/y4mvwZsXHRK9hukYpmyLwZPl6DrmIwun2KD-xvXAxhpBTkaKejI2qtG1dtJwULTNgUPjoyB1LV2mnUEU6C8RjGtOYpMfTwtf28TAfJsSWvgcGAb3zkdjQRYYvTMuDIQ-5SnLP3wE6BpOGDebFQq4ors5mRk-Ls04gvPXURdS4FdPJdvWJttEgaVksmOyLQ8i4Ad?width=647&height=389&cropmode=none)
+![graph2](https://dsm04pap003files.storage.live.com/y4mQFxgdXVVTkNtbgCpkaFUROX1xueLdhwPxiH9xG-SZvWfjMxwLnGay9k5F4uEEL79qc-i0dM1bNmnF6q-29ZjQ2pg2BTzf8etc_hXcYM7H9_J_oiReK9wAeBOIyga6BgQjBShyqcVk7SVM1qrFltxofB4b5_K1iuR_HHmiUP76FVvD-SDHxGic7XbI-FjB28O?width=647&height=389&cropmode=none)
 ***笑话捏***
 
 </center>
