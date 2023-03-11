@@ -177,15 +177,10 @@ font size = 4>
   - 指社会上对人的身体器官的盗取
 - 在当时的西医中在需要进行去管的摘除的之后必须将找出的器官保存起来归还给其亲人，否则就会被认为是在进行采生折割的巫术的神话的操作——中国人对身体的理解，独特的中国的语境
 
-<center>
+![graph](https://dsm04pap003files.storage.live.com/y4m4Gqi-5E-wUPIsTNpDNOsZXlyq4fWQ7F8TT0FpfqzXCwABD71j5jhWgx2kPaGr91MFnB-ReEUfxUtyHYnLL1iJb3Sl_P1uu3aVIoEhTmRvFAKAAufJgNYc6uzycLSvDZU5loqLH1E5Vg3sLDhPwzZ2bJb5aSI-G7d-ciZ86Fsf79R7g_dBpBLq7ePTKrbt262?width=396&height=268&cropmode=none)
 
-![graph](https://dsm04pap003files.storage.live.com/y4m205SSd0nc7IkgOcbCNjSVuWxEfPVzDEyffKXq_hHUo3SeQOF_HJJga59s_awX9ojKqSA24AFp7LFWph1HNAUG4tM1KEYBAo_q7kis_p47Hi0rCM2Js1KA2lpnkCHt37JC5jY_60XRBYVuhOeH-5gQbtfZecnOUmOdasw2swuyA8RexuVO7YaFsbALuWrDpbc?width=396&height=268&cropmode=none)
-<font size = 3>
+> 这是上海郊区的育婴堂之类的东西，西方传教士救助中国的弃婴，但是却被中国人认为这是为了进行“采生折割”的行为
 
-&nbsp;
-: 这是上海郊区的育婴堂之类的东西，西方传教士救助中国的弃婴，但是却被中国人认为这是为了进行“采生折割”的行为
-
-</center></font>
 <br/><br/>
 
 - 这也是中国医患关系难处理的原因，没有委托信念的观念，对医生作为一个独立的、理性的人的不信任，不信任的状态——中国人思想的现代化为完全建构起来的状态的原因
