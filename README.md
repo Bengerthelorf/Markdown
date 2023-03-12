@@ -16,20 +16,25 @@
     - [Mac OS X 10.8 or below](#mac-os-x-108-or-below)
 - [Usage](#usage)
 
-# Installation
+# Preparation
 ## For windows Users
 ### Windows 10 or above
 
 #### command line (Recommeded)
+
 You can use windows native package manager `winget` to install `git` and `vscode`.
+
 First, get [App Installer from the Microsoft Store](https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1?hl=en-ca&gl=ca&rtc=1). If it's already installed, make sure it is updated with the latest version.
+
 Open powershell and type the following commands.
+
 ```powershell
 winget install --id "Git.Git" --source "winget"
 wnget install --id "Microsoft.VisualStudioCode" --source "winget"
 ```
 
 #### GUI
+
 You can also download the installer from the official website.
 
 ### Windows 7 or 8
@@ -57,26 +62,42 @@ sduo dnf install code
 ### Mac OS X 10.9 or above
 
 #### command line 
+
 ```bash
 brew install git
 brew cask install visual-studio-code
 ```
 
 #### GUI
+
 you can download the installer from the official website.
 
 ### Mac OS X 10.8 or below
 
 you can download the installer from the official website.
 
+## For Android Users
+
+You can use [Termux](https://termux.com/) to install `git`. Additionally, you can employ `Obsidian` as a substitute for `VSCode` to edit and view your documents.
+
+### Termux
+
+Using the command line below to install `git`.
+
+```bash
+pkg install git
+```
+
 # Usage
 
 After installing `git` and `vscode`, you can clone the project and open it in vscode.
+
 ```powershell
 git clone https://github.com/Bengerthelorf/Markdown.git
 ```
 
 Don't forget to set your own username and email in git.
+
 ```powershell
 git config --global user.name "your name"
 git config --global user.email "your email"
@@ -87,3 +108,9 @@ Than open the project in vscode, and install the recommended extensions: `markdo
 After that, you can edit the markdown files in the `Markdown` folder, and use the `markdown preview enhanced` to preview the changes, which shall be able to view simply by using `ctrl+shift+v`.
 
 You can use the `git` shortcut on the left sidebar of vscode to commit your changes.
+
+# Some extra tips for Android
+
+## Termux
+
+You need to run the command below to enable the internal storage, 
