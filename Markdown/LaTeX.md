@@ -15,3 +15,7 @@ $$
 $$
 \int_{-\infty} ^x \frac{dy}{1 + e ^{-y}}
 $$
+
+$$
+\int \frac{x}{\sqrt{{2 - 3x ^{2}}}} dx
+$$
