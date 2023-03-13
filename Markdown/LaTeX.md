@@ -19,3 +19,7 @@ $$
 $$
 \int \frac{x}{\sqrt{{2 - 3x ^{2}}}} dx
 $$
+
+$$
+\int \frac{sinx}{cos ^{3} x}dx
+$$
