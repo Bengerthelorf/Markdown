@@ -39,3 +39,7 @@ Zero padding
 
 back to 2006 when 'average pooling' was more popular, but then 'max pooling' was more popular nowadays.
 
+## VGG
+
+## GoogLeNet
+
