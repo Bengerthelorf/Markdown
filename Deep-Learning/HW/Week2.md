@@ -1,3 +1,5 @@
+[New Bing](../../Markdown/Newbing/Math.md)
+
 ## 
 
 $$
