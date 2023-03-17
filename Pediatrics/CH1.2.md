@@ -245,7 +245,8 @@
 ## A
 
 1. I don't fucking know, Acoording to the formula, the height is 91cm, the weight is 12kg, the head circumference is 48cm.
-   but As the text wrote ahead the formula, the height should be 85cm, and after one year can the height reach 91cm. So how height A 2 yo child should be? I don't fucking know, even the god damn textbook itself has A completely conflicting answer. 91cm, It's 2 yo or 3 yo?
-   And bing said it's "男童：身高87.4cm（78.3-99.5cm），体重13.3kg（9.06-17.54kg），头围48.6cm（44.6-52.5cm）; 女童：身高87.2cm（77.3-98.0cm），体重11.9kg（8.70-16.77kg），头围47.3cm（43.6-51.4cm）" so basiclly both answers are right.
+> but As the text wrote ahead the formula, the height should be 85cm, and after one year can the height reach 91cm. So how height A 2 yo child should be? I don't fucking know, even the god damn textbook itself has A completely conflicting answer. 91cm, It's 2 yo or 3 yo?
+> 
+> And bing said it's "男童：身高87.4cm（78.3-99.5cm），体重13.3kg（9.06-17.54kg），头围48.6cm（44.6-52.5cm）; 女童：身高87.2cm（77.3-98.0cm），体重11.9kg（8.70-16.77kg），头围47.3cm（43.6-51.4cm）" so basiclly both answers are right.
 2. normal.
 3. 动作: 可以走了; 语言: 可以叫有意识地叫"mama", 可以说出物品名称.
