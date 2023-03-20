@@ -1,0 +1,1 @@
+你可以查看这个[链接](https://raw.githubusercontent.com/Bengerthelorf/Markdown/Med/Medicine/5%20pulmonary%20heart%20disease.md), 然后总结精简一下之后输出为一个思维导图, 一样用markdown语法吗, 具体的写法可以查看这个[链接](https://markmap.js.org/)
