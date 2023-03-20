@@ -222,7 +222,7 @@
 ## 月经及月经期的临床表现
 
 1. 月经  
-![月经周期](https://cn.bing.com/images/search?view=detailV2&ccid=TGpWnWXY&id=3342B5909615A3F69B743A2E04C050AFDC944CE8&thid=OIP.TGpWnWXY1jbfbpYpplMQzwHaEv&mediaurl=https%3a%2f%2fts1.cn.mm.bing.net%2fth%2fid%2fR-C.4c6a569d65d8d636df6e9629a65310cf%3frik%3d6EyU3K9QwAQuOg%26riu%3dhttp%253a%252f%252fpic.baike.soso.com%252fp%252f20131203%252f20131203170934-1301378341.jpg%26ehk%3d%252bmjb58%252fphbOfBIT23qW3GJF%252fzJXWLnU%252b36mwuAUn6cA%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1000&expw=1560&q=%e6%9c%88%e7%bb%8f%e5%91%a8%e6%9c%9f&simid=608045306623248338&FORM=IRPRST&ck=C25F53A134EC45BE47F5922508779960&selectedIndex=1&ajaxhist=0&ajaxserp=0)
+
 
 
 
