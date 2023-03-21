@@ -14,6 +14,16 @@
 
 ## 0.1. 人权的理由
 
+## Audio
+
+<iframe src="https://onedrive.live.com/embed?cid=1B304A1ABB0A3E86&resid=1B304A1ABB0A3E86%21164545&authkey=AEqxybDy5W4TOHI" width="98" height="120" frameborder="0" scrolling="no"></iframe>
+
+​<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="https://onedrive.live.com/embed?cid=1B304A1ABB0A3E86&resid=1B304A1ABB0A3E86%21164545&authkey=AEqxybDy5W4TOHI">
+</audio>
+
+<iframe src="https://onedrive.live.com/embed?cid=1B304A1ABB0A3E86&resid=1B304A1ABB0A3E86%21164544&authkey=ALzGRQTCGIk_KDE" width="98" height="120" frameborder="0" scrolling="no"></iframe>
+
 # 1. 问题和方法
 
 美国1774年《独立宣言》: "我们认为下面这些真理是不言而喻的: 人人生而平等, 造物者赋予他们若干不可剥夺的权利, 其中包括生命权、自由权和追求幸福的权利. 为了保障这些权利, 人类才在他们之间建立政府, 而政府之正当权力, 是经被治理者的同意而产生的.  "
