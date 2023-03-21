@@ -14,15 +14,21 @@
 
 ## 0.1. 人权的理由
 
-## Audio
+## 0.2. Audio
 
-<iframe src="https://onedrive.live.com/embed?cid=1B304A1ABB0A3E86&resid=1B304A1ABB0A3E86%21164545&authkey=AEqxybDy5W4TOHI" width="98" height="120" frameborder="0" scrolling="no"></iframe>
+### 0.2.1. 
 
-​<audio id="audio" controls="" preload="none">
-      <source id="mp3" src="https://onedrive.live.com/embed?cid=1B304A1ABB0A3E86&resid=1B304A1ABB0A3E86%21164545&authkey=AEqxybDy5W4TOHI">
+<audio controls>
+  <source src="https://onedrive.live.com/download?cid=1B304A1ABB0A3E86&resid=1B304A1ABB0A3E86%21164546&authkey=ADqyW9ZyOnrODcE" type="audio/mpeg">
+  Your browser does not support the audio element.
 </audio>
 
-<iframe src="https://onedrive.live.com/embed?cid=1B304A1ABB0A3E86&resid=1B304A1ABB0A3E86%21164544&authkey=ALzGRQTCGIk_KDE" width="98" height="120" frameborder="0" scrolling="no"></iframe>
+### 0.2.2. 
+
+<audio controls>
+  <source src="https://onedrive.live.com/download?cid=1B304A1ABB0A3E86&resid=1B304A1ABB0A3E86%21164548&authkey=AA4unAy5CbUdA2g" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 # 1. 问题和方法
 
