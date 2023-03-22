@@ -1,12 +1,12 @@
 
 # Medicine
 
-- [ ] 1 preclinical.md
-- [ ] 2 Bronchinal asthma.md
-- [ ] 3 lung cancer.md
-- [x] 4 COPD.md
-- [x] 5 pulmonary hypertension.md
-- [ ] 6 lungabscess.md
+- [ ] 1 preclinical
+- [ ] 2 Bronchinal asthma
+- [ ] 3 lung cancer
+- [x] 4 COPD
+- [x] 5 pulmonary hypertension
+- [ ] 6 lungabscess
 - [ ] 7 General introduction to circulatory system 
 - [ ] 8 Cardiomyopathy 
 - [ ] 9 Heart failure
@@ -22,11 +22,12 @@
 
 ## mindmap
 
-- [x] 1 preclinical.md
-- [x] 2 Bronchinal asthma.md
-- [x] 3 lung cancer.md
-- [x] 4 COPD.md
-- [x] 5 pulmonary hypertension.md
+- [x] 1 preclinical
+- [x] 2 Bronchinal asthma
+- [x] 3 lung cancer
+- [x] 4 COPD
+- [x] 5 pulmonary hypertension
+- [ ] 6 lungabscess
 - [ ] 7 General introduction to circulatory system 
 - [ ] 8 Cardiomyopathy 
 - [ ] 9 Heart failure
