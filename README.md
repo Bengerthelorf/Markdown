@@ -1,6 +1,6 @@
 ***If you want to contribute to the project, you can fork the project and submit a pull request.***
 
-- [Installation](#installation)
+- [Preparation](#preparation)
   - [For windows Users](#for-windows-users)
     - [Windows 10 or above](#windows-10-or-above)
       - [command line (Recommeded)](#command-line-recommeded)
@@ -14,7 +14,12 @@
       - [command line](#command-line)
       - [GUI](#gui-1)
     - [Mac OS X 10.8 or below](#mac-os-x-108-or-below)
+  - [For Android Users](#for-android-users)
+    - [Termux](#termux)
 - [Usage](#usage)
+- [Some extra tips for Android](#some-extra-tips-for-android)
+  - [Termux](#termux-1)
+- [PS](#ps)
 
 # Preparation
 ## For windows Users
@@ -35,7 +40,7 @@ wnget install --id "Microsoft.VisualStudioCode" --source "winget"
 
 #### GUI
 
-You can also download the installer from the official website.
+You can also download the installer from the official website: [Git](https://git-scm.com/download/win) and [VSCode](https://code.visualstudio.com/Download)
 
 ### Windows 7 or 8
 
@@ -70,11 +75,11 @@ brew cask install visual-studio-code
 
 #### GUI
 
-you can download the installer from the official website.
+you can download the installer from the official website: [Git](https://git-scm.com/download/mac) and [VSCode](https://code.visualstudio.com/Download)
 
 ### Mac OS X 10.8 or below
 
-you can download the installer from the official website.
+you can download the installer from the official website: [Git](https://git-scm.com/download/mac) and [VSCode](https://code.visualstudio.com/Download)
 
 ## For Android Users
 
@@ -114,3 +119,12 @@ You can use the `git` shortcut on the left sidebar of vscode to commit your chan
 ## Termux
 
 You need to run the command below to enable the internal storage, 
+
+# PS
+
+- For the branch, I've created 4 branches and each branch has it's own purpose, so please chech what the branch name  stand for before you start to edit the files.
+  > For example this branch is stand for `medicine`.
+- If you want to be a collaborator, please contact me via my email.
+- For the guide for markdown, you can find it [here](https://www.markdownguide.org/), check and learn it before you start.
+- If you have any questions, please contact me via my email.
+- check the [todo list](../todo.md) to see what you can do. And maybe you would like to add some new stuff to the list.
