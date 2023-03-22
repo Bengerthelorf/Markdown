@@ -60,7 +60,9 @@
 ---
 
 [CH1.1](Pediatrics/Ch1.1.md)
+
 [CH1.2](Pediatrics/Ch1.2.md)
+
 [CH4](Pediatrics/CH4.md)
 
 ## mindmap
@@ -72,12 +74,17 @@
 ---
 
 [CH1](Medical%20Psychology/1st%20Week.md)
+
 [CH2](Medical%20Psychology/2nd%20Week.md)
+
 [CH3](Medical%20Psychology/3rd%20Week.md)
+
 [CH4](Medical%20Psychology/4th%20Week.md)
+
 [CH5](Medical%20Psychology/5th%20Week.md)
 
 ## mindmap
 
 [CH1](Medical%20Psychology/mindmap/1st%20Week%20mind.md)
+
 [CH3](Medical%20Psychology/mindmap/3rd%20Week.md)
