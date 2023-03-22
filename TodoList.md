@@ -39,4 +39,54 @@
 - [ ] 15 General introduction to digestive system 
 - [ ] 16 Gastritis 
 - [ ] 17 Primary liver cancer 
-- [ ] 18 Hepatic encephalopathy 
+- [ ] 18 Hepatic encephalopathy
+
+# Surgery
+
+- [ ] CH1
+- [ ] CH2
+- [ ] CH3
+- [x] CH4
+- [ ] CH5
+
+## mindmap
+
+- [ ] CH1
+- [ ] CH2
+- [ ] CH3
+- [ ] CH4
+- [ ] CH5
+
+# Obstetrics and Gynecology
+
+- [x] CH1
+- [ ] CH2
+- [ ] CH3
+- [ ] CH4
+- [ ] CH5
+
+## mindmap
+
+- [x] CH1
+- [ ] CH2
+- [ ] CH3
+- [ ] CH4
+- [ ] CH5
+
+# Pediatrics
+
+- [ ] CH1
+- [ ] CH2
+- [ ] CH3
+- [ ] CH4
+- [ ] CH5
+
+## mindmap
+
+- [x] CH1
+  - [x] CH1.1
+  - [x] CH1.2
+- [ ] CH2
+- [ ] CH3
+- [ ] CH4
+- [ ] CH5
