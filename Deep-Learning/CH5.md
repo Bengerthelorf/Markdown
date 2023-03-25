@@ -1,8 +1,8 @@
 # regularization
 
-> - In statistics, Bühlmann Peter et. al. : “The process of adding information to solve an ill-posed problem or to prevent overfitting.”;
-> - In deep learning, Goodfellow et. al. : “Any modification we make to a learning algorithm that is intended to reduce its generalization error but not its training error.”;
-> -  From Bayesian perspective, a maximum posterior estimate is equivalent to the minimization problem defining Tikhonov regularization ( a generalized version of L2 regularization).
+> - In statistics, Bühlmann Peter et. al. : "The process of adding information to solve an ill-posed problem or to prevent overfitting.";
+> - In deep learning, Goodfellow et. al. : "Any modification we make to a learning algorithm that is intended to reduce its generalization error but not its training error.";
+> -  From Bayesian perspective, a maximum posterior estimate is equivalent to the minimization problem defining Tikhonov regularization (a generalized version of L2 regularization).
 
 ## Priors in Bayesian
 
