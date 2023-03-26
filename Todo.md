@@ -1,3 +1,18 @@
+# Medical Psychology
+
+- [x] CH1
+- [ ] CH2
+- [x] CH3
+- [x] CH4
+- [x] CH5
+
+## mindmap
+
+- [x] CH1
+- [ ] CH2
+- [x] CH3
+- [ ] CH4
+- [ ] CH5
 
 # Medicine
 
@@ -88,21 +103,5 @@
   - [x] CH1.2
 - [ ] CH2
 - [ ] CH3
-- [ ] CH4
-- [ ] CH5
-
-# Medical Psychology
-
-- [x] CH1
-- [ ] CH2
-- [x] CH3
-- [x] CH4
-- [x] CH5
-
-## mindmap
-
-- [x] CH1
-- [ ] CH2
-- [x] CH3
 - [ ] CH4
 - [ ] CH5
