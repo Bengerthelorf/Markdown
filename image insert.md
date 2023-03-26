@@ -1,2 +1,1 @@
-![image](.image/channels4_profile.jpg)
-
+![image_name](.image/channels4_profile.jpg)
