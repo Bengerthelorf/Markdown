@@ -4,6 +4,8 @@
 > - In deep learning, Goodfellow et. al. : "Any modification we make to a learning algorithm that is intended to reduce its generalization error but not its training error.";
 > -  From Bayesian perspective, a maximum posterior estimate is equivalent to the minimization problem defining Tikhonov regularization (a generalized version of L2 regularization).
 
+![regularization](https://dsm04pap003files.storage.live.com/y4m7GrW0BiNLgFA4VUWDTNCmjpEneAcdnQ0P5HvLC6ihfsPSe8-LP2vGFcqhX198Lbu7RREQ5YBemEnmluBTOrvzXRlgWeBnckSIiO1AThzWJy9WG-Nxfedxt2mlQEHgy8rR9OHrboMwdFewuddTA1hrAdx4dJM60pvLLoMQaiPh8ahkHyVVtIhGE0TzfcY2rd-?width=1208&height=467&cropmode=none)
+
 ## Priors in Bayesian
 
 what is priors?
