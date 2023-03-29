@@ -102,3 +102,23 @@ western medicine: 有明确的病因, 有明确的治疗方法, 有明确的治�
 ## 多学科治疗的必要性
 
 "与本科室无关"是错误的需要被订正的
+
+@font-face {
+  font-family: 'Noto Sans SC', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap");
+}
+
+.markdown-preview.markdown-preview {
+  font-family: 'Noto Sans SC', sans-serif;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  pre,
+  code {
+    font-family: 'Noto Sans SC', sans-serif;
+  }
+}
