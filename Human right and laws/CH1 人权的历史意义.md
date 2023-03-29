@@ -1,10 +1,53 @@
 # 人权的历史意义
 
+![Human evolution](https://dsm04pap003files.storage.live.com/y4mrMTxHeVKNS6qi7fuLTykEWilbXpBsmnwq_KAjkC8ai4Nq95KVANt6vVw82kUsyBSpIz3MwGp5UyZq1jfgkToJlKy9GzXGjjilqjjIuDcpNARr6LvArfWSIQzN5qmMBXyLtq0AP39LEQ7aPRclSJV4Q393qfbWLQSMp169gPlAuq7qIyaLlhc7LdoGR8eEs3E?width=474&height=338&cropmode=none)
+
+推动从猿进化为人背后的动因是什么?
+
+- 观点一:
+  > 为了生存而智慧, 为了保全自己而诞生出智慧
+  > > 但是每一种生物都有生存的需要, 为什么只有人类才有智慧?
+  > > → 显然, 这个观点是站不住脚的
+- 观点二:
+  > 为了使用工具而智慧
+  > > 可以去归根究底: 为什么要使用工具? 使用工具本质上是为了什么?
+  > > > 答: 为了劳动而去使用工具 →劳动是人类为了生存斗争而不同于其他动物的方式 → 劳动推动着猿一步步进化到人
+- 结论:
+  > 劳动是人类进化的动力
+  - 劳动使人能够直立行走, 因为需要解放双手去使用工具
+  - 劳动使人弄够发展语言能力, 因为需要交流, 需要配合合作才能进行有效的劳动
+  - 劳动使人获得分析, 判断推理的能力, 因为需要算计, 需要进行理性的劳动的安排
+
+---
+
 ![Slaves](https://dsm04pap003files.storage.live.com/y4mrq8hzPPLyZ5O0uLwapck-yvX2B2cmkCCB2utvF6XvMeV26WOGZGvh-9g82YqL2vXgrISZPnf0lvKPaiQmwIhCo2GxKG0c3jFXlHXT2NyMt5pMctCkiT07QL3y5zymk6FLycTfpicNdp5If1RIJj3i56L8ZCMPvpmJsIxYCX1fmU9n_M_wwJYTF2IynTblyAV?width=1024&height=940&cropmode=none)
 
 > 《奴隶》哈特·本顿(美国画家, 1924年作)
 
-亚里士多德: 奴隶是会说话的工具.  
+在这幅图中, 鞭打者和被鞭打者都是人, 但是为什么有人会鞭打别人, 而有人要被鞭打呢?
+
+> 鞭打者是奴隶主, 被鞭打者是奴隶
+
+在生物学上看, 奴隶可能比奴隶主要更聪明, 有更高尚的品德, 但是他为什么会被鞭打?
+
+> 这种鞭打与被鞭打是自然进化的结果吗? 显然不是, 但为什么还会存在这样的状态?
+> > 这是社会结构, 政治法律制度的结果: 
+> > > 咋生物学上看, 他们都是人, 但是在特定的社会结构与法律制度下, 他们有的是人, 有的不是人
+
+亚里士多德: 奴隶是会说话的工具.
+
+> 在亚里士多德看来, 人分为以下几个等级:
+> - 有公民权的成年男子
+> > 完整意义上的人
+> - 妇女, 儿童和没有公民权的外邦人
+> > 有自由权, 但是没有功能权, 不是完整意义上的人
+> > > 妇女和儿童有一定的理性, 但是没有公共的理性, 不能去参与审议公共事务, 只有在私人领域中一些分析判断和推理的能力
+> - 奴隶
+> > 在亚里士多德看来, 他们只有微博的理性, 他们的理性只能洞察, 理解和执行主人的命令, 他们完全不是人
+
+---
+
+<img src="https://m.media-amazon.com/images/M/MV5BZmM2NTk5NDEtOGRlZi00ZjA3LTgwNjItOGNkN2VlNTg5YWIxXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg" sizes="100vw" srcset="https://m.media-amazon.com/images/M/MV5BZmM2NTk5NDEtOGRlZi00ZjA3LTgwNjItOGNkN2VlNTg5YWIxXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_FMjpg_UX320_.jpg 320w, https://m.media-amazon.com/images/M/MV5BZmM2NTk5NDEtOGRlZi00ZjA3LTgwNjItOGNkN2VlNTg5YWIxXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_FMjpg_UX480_.jpg 480w, https://m.media-amazon.com/images/M/MV5BZmM2NTk5NDEtOGRlZi00ZjA3LTgwNjItOGNkN2VlNTg5YWIxXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_FMjpg_UX600_.jpg 600w, https://m.media-amazon.com/images/M/MV5BZmM2NTk5NDEtOGRlZi00ZjA3LTgwNjItOGNkN2VlNTg5YWIxXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_FMjpg_UX1024_.jpg 1024w, https://m.media-amazon.com/images/M/MV5BZmM2NTk5NDEtOGRlZi00ZjA3LTgwNjItOGNkN2VlNTg5YWIxXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_FMjpg_UX1280_.jpg 1280w, https://m.media-amazon.com/images/M/MV5BZmM2NTk5NDEtOGRlZi00ZjA3LTgwNjItOGNkN2VlNTg5YWIxXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_FMjpg_UX1920_.jpg 1920w" data-image-id="rm3415311873-curr" alt="The Last Emperor (1987)" class="sc-7c0a9e7c-1 lhATKa">
 
 劳动改进了人的身体结构和技能, 使人看起来像人, 具备了人的生物学特征. 劳动表明了在人与自然的关系中人通过改造自然而改造了自己. 
 
