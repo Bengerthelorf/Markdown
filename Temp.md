@@ -32,3 +32,34 @@ test mycopilot
 |easy to import|yes|no|
 
 With the help of copilot, I finished this damn table in a few seconds, only by hitting enter button, which is amazing. HOLY COW, COPILOT, ONLY GOD KNOWS HOW MUCH I LOVE YOU.
+
+$$
+ln \sqrt{x ^{2} + y ^{2}} = arctan \dfrac{y}{x} 
+$$
+
+求
+
+$$
+\dfrac{dy}{dx}
+$$
+
+The derivative of the given function is:
+
+$$
+\dfrac{dy}{dx} = \dfrac{x}{x^2+y^2}
+$$
+
+这是一个隐函数求导的问题。我们可以用链式法则和反函数求导法则来解决。具体步骤如下：
+
+$$
+\begin{aligned}
+& \text{对两边同时求导，得} \\
+& \dfrac{1}{\sqrt{x ^{2} + y ^{2}}} \cdot \dfrac{d}{dx} (\sqrt{x ^{2} + y ^{2}}) = \dfrac{1}{1 + (\frac{y}{x})^2} \cdot \dfrac{d}{dx} (arctan \dfrac{y}{x}) \\
+& \text{利用链式法则和反函数求导法则，得} \\
+& \dfrac{x}{\sqrt{x ^{2} + y ^{2}}} + \dfrac{y}{\sqrt{x ^{2} + y ^{2}}} \cdot \dfrac{dy}{dx} = \dfrac{-y}{x^2 + y^2} + \dfrac{x}{x^2 + y^2} \cdot \dfrac{dy}{dx} \\
+& \text{移项整理，得} \\
+& (\dfrac{x^2 + y^2}{\sqrt{x ^{2} + y ^{2}}}) \cdot \dfrac{dy}{dx} = -y - x \\
+& \text{最后，得到结果} \\
+& \boxed{\dfrac{dy}{dx} = -\dfrac{\sqrt{x ^{2} + y ^{2}}}{x^2 + y^2} (x + y)}
+\end{aligned}
+$$
