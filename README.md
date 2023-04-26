@@ -128,3 +128,5 @@ You need to run the command below to enable the internal storage,
 - For the guide for markdown, you can find it [here](https://www.markdownguide.org/), check and learn it before you start.
 - If you have any questions, please contact me via my email.
 - check the [todo list](../todo.md) to see what you can do. And maybe you would like to add some new stuff to the list.
+
+Due to the [class website of pediatrics](icc.hep.com.cn) is not allow to donwload the files, I've write a software in c++ to download the files, you can find it [here](/iccDownload.cpp)
