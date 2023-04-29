@@ -1,20 +1,20 @@
-***If you want to contribute to the project, you can fork the project and submit a pull request to me.***
+***If you would like to contribute to this project, you can fork the project and submit a pull request.***
 
 - [Preparation](#preparation)
   - [For Windows users](#for-windows-users)
-    - [Windows 10 or later](#windows-10-or-later)
-      - [command line (Recommeded)](#command-line-recommeded)
+    - [Windows 10 or above](#windows-10-or-above)
+      - [Command line (Recommended)](#command-line-recommended)
       - [GUI](#gui)
     - [Windows 7 or 8](#windows-7-or-8)
-  - [For Linux users](#for-linux-users)
+  - [For Linux Users](#for-linux-users)
     - [Ubuntu and Debian:](#ubuntu-and-debian)
     - [Fedora:](#fedora)
-  - [For Mac users](#for-mac-users)
-    - [macOS 10.9 or later](#macos-109-or-later)
-      - [command line](#command-line)
+  - [For Mac Users](#for-mac-users)
+    - [macOS 10.9 or above](#macos-109-or-above)
+      - [Command line](#command-line)
       - [GUI](#gui-1)
-    - [macOS 10.8 or earlier](#macos-108-or-earlier)
-  - [For Android users](#for-android-users)
+    - [MacOS 10.8 or earlier](#macos-108-or-earlier)
+  - [For Android Users](#for-android-users)
     - [Termux](#termux)
 - [Usage](#usage)
 - [Some extra tips for Android](#some-extra-tips-for-android)
@@ -25,9 +25,9 @@
 
 ## For Windows users
 
-### Windows 10 or later
+### Windows 10 or above
 
-#### command line (Recommeded)
+#### Command line (Recommended)
 
 You can use Windows native package manager winget to install `git` and `VSCode`.
 
@@ -48,7 +48,7 @@ You can also download the installers from the official websites: [Git](https://g
 
 Since Windows 7 and 8 do not support `winget`, you can download the installers from the official websites.
 
-## For Linux users
+## For Linux Users
 
 ### Ubuntu and Debian:
 
@@ -64,11 +64,11 @@ sudo dnf install git
 sduo dnf install code
 ```
 
-## For Mac users
+## For Mac Users
 
-### macOS 10.9 or later
+### macOS 10.9 or above
 
-#### command line
+#### Command line
 
 ```bash
 brew install git
@@ -79,13 +79,13 @@ brew cask install visual-studio-code
 
 you can download the installers from the official websites: [Git](https://git-scm.com/download/mac) and [VSCode](https://code.visualstudio.com/Download)
 
-### macOS 10.8 or earlier
+### MacOS 10.8 or earlier
 
 you can download the installers from the official websites: [Git](https://git-scm.com/download/mac) and [VSCode](https://code.visualstudio.com/Download)
 
-## For Android users
+## For Android Users
 
-You can use [Termux](https://termux.com/) to install `git`. And using `Obsidian` as an alternative to `VSCode` to edit and view your documents.
+You can use [Termux](https://termux.com/) to install `git`, and use `Obsidian` as an alternative to `VSCode` to edit and view your documents.
 
 ### Termux
 
@@ -97,7 +97,7 @@ pkg install git
 
 # Usage
 
-After installing `git` and `VSCode`, you can clone the project and open it in VSCode.
+After installing `git` and `VSCode`, you can clone this project and open it in `VSCode`.
 
 ```bash
 git clone https://github.com/Bengerthelorf/Markdown.git
@@ -112,7 +112,7 @@ git config --global user.email "your email"
 
 Then open the project in VSCode and install the recommended extensions: `Markdown All in One`, `Markdown Preview Enhanced`, `Markdown Preview Mermaid Support`, and `Markmap`.
 
-After that, you can edit the Markdown files in the `Markdown` folder and use the `Markdown Preview Enhanced` extension to preview the changes. You can view the preview by pressing `Ctrl+Shift+V`.
+After that, you can edit the Markdown files in the `Markdown` folder and use the `Markdown Preview Enhanced` extension to preview the changes, which you should be able to view simply by using `Ctrl+Shift+V`.
 
 You can use the `Git` shortcut on the left sidebar of VSCode to commit your changes.
 
@@ -126,13 +126,13 @@ termux-setup-storage
 
 # PS
 
-- For the branch, I've created 4 branches and each branch has its own purpose, so please check what the branch name stands for before you start to edit the files.
-    > For example, this branch is for `medicine`.
+- About branches, I've created 4 branches and each branch has its own purpose, so please check what the branch name stands for before you start editing files.
+    > For example, this branch is for `medical-related documents`.
 - If you want to be a collaborator, please contact me via my email.
-- For the guide for markdown, you can find it [here](https://www.markdownguide.org/). Check and learn it before you start.
+- About markdown guide, you can find it [here](https://www.markdownguide.org/). Check and learn it before you start.
 - If you have any questions, please contact me via my email.
 - Check the [todo list](/Todo.md) to see what you can do. And maybe you would like to add some new stuff to the list.
 
 ---
 
-Due to the [class website of pediatrics](icc.hep.com.cn) is not allow to download the files, I've write a python script to download the files, you can find it [here](/iccDownload.py), and I also translate that into a [c++](/iccDownload.cpp) version, you can compile it and run it on your own computer.
+Due to [pediatric course website](icc.hep.com.cn) does not allow downloading files, I've written a python script to download files, you can find it [here](/iccDownload.py), and I also translated it into a [c++ version](/iccDownload.cpp), you can compile it and run it on your own computer.

@@ -32,5 +32,3 @@ Oh, that seems to be not working at all, I will show you my code.
 
 }
 ```
-
-can you help me modify it? I want to change the color of the table's text.
