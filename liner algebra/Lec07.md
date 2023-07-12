@@ -45,7 +45,7 @@ $$
 \end{bmatrix} \quad as \quad \mathbf{U}
 $$
 
-and obivously, the $ \mathbf{U} $ is not a upper triangular matrix, so we give it another name so-called the **echelon form**, means staircase form. 
+and obivously, the `U` is not a upper triangular matrix, so we give it another name so-called the **echelon form**, means staircase form. 
 
 BTW, the what we call echelon form is not always need to have the same line in every stair, it can be like this:
 
