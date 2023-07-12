@@ -8,7 +8,7 @@ $$
 \end{bmatrix}
 $$
 
-so, let's get $ \mathbf{A} $ and $ \mathbf{b} $ some kind of relations. the method we use here is call augmented matrix:
+so, let's get `A` and `b` some kind of relations. the method we use here is call augmented matrix:
 
 $$
 \begin{bmatrix}
@@ -41,15 +41,19 @@ $$
 
 and, we get this rule:
 
-if a combination of rows of $ \mathbf{A} $ gives a zero row, then the corresponding combination of elements of $ \mathbf{b} $ must give zero number.
+if a combination of rows of `A` gives a zero row, then the corresponding combination of elements of `b` must give zero number.
 
 but hey, how to use it? everything comes up with meaning, well, this will help us to get a particular solution, and which will help us to describe all the solutions of the equiation.
 
 so, let's get a particular solution, we can use the rule we get above, and we can get:
 
-say, $ \mathbf{X _p} $ as x particular, then, let's get a easiest way to get it. set free variable to zero, and get the particular solution:
+say, `Xp` as x particular, then, let's get a easiest way to get it. set free variable to zero, and get the particular solution:
 
-oh we need to randomly pick values of $ \mathbf{b} $, so let's say: $ b _1 = 1, b _2 = 5, b _3 = 6 $, an then the augmented matrix will be:
+oh we need to randomly pick values of `b`, so let's say: 
+
+$$ b _1 = 1, b _2 = 5, b _3 = 6 $$
+
+, an then the augmented matrix will be:
 
 $$
 \begin{bmatrix}
@@ -59,7 +63,11 @@ $$
 \end{bmatrix}
 $$
 
-and then, set free variable to zero, we get: $ x _2 = 0, x  _4 = 0 $, so that:
+and then, set free variable to zero, we get: 
+
+$$ x _2 = 0, x  _4 = 0 $$
+
+, so that:
 
 $$
 \mathbf{X _p} =
@@ -127,7 +135,7 @@ $$
 
 > yes, nullspces will have two columns, cuz there is two free variables, remenber, so in the identity matrix, there will definitely be two columns.
 
-and $ x _{complete} $ is:
+and $ x _{complete} $ (x<sub>complete</sub>) is:
 
 $$
 x _{complete} = 
