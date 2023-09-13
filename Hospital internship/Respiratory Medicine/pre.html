@@ -1,0 +1,273 @@
+<!DOCTYPE html><html><head>
+      <title>pre</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\Newbi\.vscode-insiders\extensions\shd101wyy.markdown-preview-enhanced-0.7.3\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      <script type="text/javascript" src="file:///c:\Users\Newbi\.vscode-insiders\extensions\shd101wyy.markdown-preview-enhanced-0.7.3\crossnote\dependencies\mermaid\mermaid.min.js" charset="UTF-8"></script>
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em!important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em!important;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em!important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([for=preview]) .code-chunk .btn-group{display:none}.markdown-preview:not([for=preview]) .code-chunk .status{display:none}.markdown-preview:not([for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px/2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="crossnote markdown-preview  ">
+      <h1 class="crossnote-header" id="%E7%97%85%E4%BE%8B%E4%BB%8B%E7%BB%8D">病例介绍</h1>
+
+<p>患者: 李业明, 9月4日, 因: "反复咳嗽咳痰半月余, 加重2天" 入院</p>
+<p>现病史: 患者半月前无明显诱因下出现咳嗽咳痰, 咳白痰, 夜间咳嗽明显, 受凉后咳嗽加重, 无咯血及痰中带血等. 8月17日胸部CT: 右肺上叶少许炎症, 左肺上叶条索灶. 附见: 肝右叶囊性灶, 左肾周少许渗出表现. 血常规: C反应蛋白&lt;8mg/L, 白细胞计数10.24 × 10^9/L (高) , 红细胞计数4.72 × 10~12/L, 血红蛋白149G/L, 血小板计数208 × 10^9/L, 中性粒细胞％67.8%, 中性粒细胞绝对值6.94 × 10^9/L (高) , 嗜酸细胞绝对值0.04 × 10^9/L. 予以头孢地尼分散片、奈诺沙星、桉柠蒎肠溶软胶囊等治疗, 症状好转. 2天前患者饮用雪碧后咳嗽咳痰加重, 咳白痰, 无胸闷气喘, 无发热, 无下肢水肿等. 再来我院就诊, 查血常规(2023年09月03日): C反应蛋白&lt;8mg/L, 白细胞计数7.78 × 10^9/L, 红细胞计数4.40 × 10^12/L, 血红蛋白124G/L, 血小板计数273 × 10^9/L, 中性粒细胞％ 63.4%, 淋巴细胞% 21.0%, 单核细胞% 6.7%,  嗜酸细胞% 8.5% (高) ,  予头孢西丁钠等治疗1天, 今为进一步治疗收住我科.</p>
+<p>患者自本次发病以来, 体力轻度下降.</p>
+<p>既往史: 高血压史2年, 最高压140/80mmHg, 平时口服氨氯地平片治疗, 控制可. 过敏性鼻炎史10年</p>
+<p>体格检查</p>
+<p>Bp: 161/94mmHg</p>
+<p>初步诊断：</p>
+<ol>
+<li>社区获得性肺炎, 非重症 (CURB-65评分0分)</li>
+<li>高血压病1级 (低危)</li>
+</ol>
+<p>在后续的诊治和检查中, 发现李的病情有以下疑点</p>
+<ul>
+<li>病人再包括嗜酸性粒细胞增高的CVA的表现的基础上叠加了标志肾脏损伤的症状, 如血肌酐升高等</li>
+</ul>
+<p>故此需要留院进行进一步的检查和诊断.</p>
+<p>在之后的9月7好的检查中, 诊断为: 支气管哮喘的急性发作期, 嗜酸性粒细胞增多, CAP非重症, 血肌酐升高和高血压1级.</p>
+<h1 class="crossnote-header" id="%E8%A6%81%E7%82%B9%E4%BB%8B%E7%BB%8D">要点介绍</h1>
+
+<p>对此, 我们提出一些不同的需要去鉴别与再细究的可能性</p>
+<h1 class="crossnote-header" id="%E9%89%B4%E5%88%AB%E8%AF%8A%E6%96%AD">鉴别诊断</h1>
+
+<p>农民肺：</p>
+<blockquote>
+<p>农民肺是外源性过敏性肺泡炎或外源性过敏性细支气管肺泡炎的一种</p>
+<p>急性农民肺多当吸入大量的嗜热放线菌孢子后4～8小时内发病，起病急骤，畏寒高热、汗多、全身不适、食欲不振、恶心、头痛、胸闷、气短、干咳或少量黏液痰</p>
+<p>慢性农民肺是反复接触大量抗原者，病情长期不愈，临床可见咳嗽、咳痰、呼吸困难、缺氧、发绀、极度乏力，继发感染者可发热、多汗</p>
+</blockquote>
+<p>本患者症状缺氧，发绀，也无发热、多汗。且农民肺不会累及到肾，无法解释患者肾损伤</p>
+<hr>
+<p>显微镜下多血管炎（MPA）</p>
+<blockquote>
+<p>临床表现与肉芽肿性多血管炎的某些症状相似，除了没有肉芽肿性损害病变（如肺空洞病变），上呼吸道累及通常很轻或没有。在这两个疾病中，抗中性粒细胞胞浆抗体（ANCA）可能出现。通常，前驱症状包括一些全身表现，如发热、体重减轻、肌肉酸痛、关节痛。其他症状根据受累器官和系统的情况而不同，其中高达90%的患者出现肾脏累及。</p>
+<p>鉴别诊断：患者没有无法解释的发热、体重降低、关节痛、腹痛、肺泡出血、新发肾炎综合症、新发的多发性单神经病变和多神经病变等并发症状，且c-ANCA指标阴性。</p>
+</blockquote>
+<hr>
+<p>高嗜酸性粒细胞综合征：</p>
+<blockquote>
+<p>高嗜酸性粒细胞综合征以外周血嗜酸性粒细胞增多为特点，伴有与嗜酸性粒细胞增多相关的器官受累或功能异常的临床表现，经检查未发现寄生虫，过敏或其他引起 嗜酸性粒细胞增多的继发性原因。根据不同的器官功能异常，症状多种多样。诊断需除外其他引起嗜酸性粒细胞增多的原因，且可行骨髓和基因检查。</p>
+<p>鉴别诊断：该病诊断需要嗜酸性粒细胞计数超过1.5×109/L以上。（该患者为0.81×109/L）且病程较长，长期性、持续性嗜酸性粒细胞增高，其时间超过半年以上。患者不符合</p>
+</blockquote>
+<hr>
+<p>慢性嗜酸性粒细胞肺炎：</p>
+<blockquote>
+<p>慢性嗜酸性粒细胞肺炎(CEP)又称迁延型嗜酸粒细胞增多症、慢性粒细胞性肺炎(chroniceosinophilicpneumonia，CEP)。高峰年龄是30～40岁，妇女几乎是男性的2倍。大部分病例为高加索人，1/3～1/2的患者有过敏性鼻炎或鼻息肉等病史，另外有2/3的病人有成人发作性哮喘或有其他呼吸道症状。本病较单纯型嗜酸粒细胞增多症病程长，通常为2～6个月，甚至超过1年，症状也较严重。呈亚急性临床表现，常见的症状有低热、夜间大量出汗，中度体重下降，咳嗽，有少许黏痰，约有2/9患者少量咯血，病人最后发展为渐进性的呼吸困难，与发作性哮喘有关。少数病人表现为急性严重的呼吸衰竭或ARDS。</p>
+<p>患者症状不符合</p>
+</blockquote>
+<h1 class="crossnote-header" id="%E9%87%8D%E7%82%B9%E8%A6%81%E8%AE%BA">重点要论</h1>
+
+<h2 class="crossnote-header" id="%E4%B8%80%E5%85%83%E8%AF%8A%E6%96%AD">一元诊断</h2>
+
+<h3 class="crossnote-header" id="wg">WG</h3>
+
+<p>WG是一种坏死性肉芽肿性血管炎，病因不明。病变主要累及小动脉静脉和毛细血管，偶尔累及大动脉，其病理以血管壁的炎症为特征，主要侵犯上下呼吸道和肾脏，通常从鼻黏膜和肺组织的局灶性肉芽肿炎症开始，逐渐近战位血管的弥漫性坏死性肉芽肿性炎症。临床常表现为鼻和副鼻窦炎、肺病变和进行性肾功能衰竭。还可累及关节、眼、耳、皮肤，亦可侵犯心脏和神经系统等。无肾脏受累者被称为局限性WG。男性发病略多于女性，发病年龄在5-91岁，40-50岁是本病的高发年龄。</p>
+<p>肺部受累是WG的基本特征之一: 50%患者起病时即具有肺部表现，80%以上的患者将在整个病程中出现肺部病变, 胸闷气短咳嗽咯血以及胸膜炎是最常见的症状。大量肺泡性出血少见，但预后较差。1/3的患者肺部影像学检查可出现肺部阴影，可缺乏临床症状，查体时可有叩浊、呼吸音减低以及湿罗音等体征。55%患者可因支气管内膜受累以及瘢痕形成肺功能检查时出现阻塞性通气障碍(我们可以看到李的检查报告中是有通气障碍的), 30%-40%的患者可以出现限制性通气功能障碍以及弥散功能障碍。</p>
+<p>同时, 大部分病例有肾脏病变，出现蛋白尿，红、白细胞及管型尿，严重者伴有高血压和肾病综合征，最终可导致肾功能衰竭，是WG的重要死因之一。无肾脏受累者成为局限型WG，应警惕部分患者在起病时无肾脏病变，但随病情进展可逐渐发展至肾小球肾炎。</p>
+<p>另外30%的患者发病时出现关节病变，70%的患者在病程中出现关节受累, 多数表现为关节疼痛和肌痛，1/3的患者可出现对称性、非对称性以及游走性关节炎. 15%的病人会有眼部受累可表现为眼凸、视神经及眼肌损伤、结膜炎、角膜溃疡、表层巩膜炎、虹膜炎、视网膜血管眼和视力障碍等, 还有有纳差, 持续性流涕，且不断加重等的上呼吸道症状, 甚至有咽鼓管阻塞引起的中耳炎继发听力丧失, 皮肤粘膜改变等</p>
+<p>对此有一下的诊断要点, 但值得注意的是, WG的诊断并没有诊断标准.</p>
+<p>WG早期诊断至关重要。无症状这应行血清ANCA以及鼻窦和肺脏的CT扫描辅助诊断。上呼吸道、支气管内膜和肾活检是诊断的重要依据，病理显示肺小血管壁有中性粒细胞及单个核细胞浸润，可见巨细胞、多型核巨细胞肉芽肿，可破坏肺组织形成空洞。肾病理为局灶性节段性、新月体性坏死性肾小球肾炎，免疫荧光检测无或很少免疫球蛋白及补体沉积。当诊断困难时，有必要行胸腔镜和开胸活检以提供诊断病理依据</p>
+<p>WG的诊断标准目前主要采用1990年美国风湿病学会分类标准</p>
+<ol>
+<li>鼻或口腔炎症：痛性或无痛性口腔溃疡，脓性或血性鼻腔分泌物</li>
+<li>胸部X线片异常：胸部X线片示结节、固定浸润病灶或空洞</li>
+<li>尿沉渣异常：镜下血尿（红细胞&gt;5/高倍视野）或出现红细胞管型</li>
+<li>病理性肉芽肿性炎症性改变：动脉壁或动脉周围，或血管（动脉或微动脉）外区域有中性粒细胞浸润成肉芽肿炎性改变</li>
+</ol>
+<blockquote>
+<p>符合2条或2条以上时可诊断为WG，诊断敏感性和特异性分别为88.2%和92.0%</p>
+</blockquote>
+<p>WG误诊率高，应对以下情况患者反复进行活组织检查：</p>
+<ol>
+<li>不明原因的发热伴有呼吸道症状</li>
+<li>慢性鼻炎及副鼻窦炎，经检查有粘膜糜烂或肉芽组织增生</li>
+<li>眼、口腔黏膜有溃疡、坏死或肉芽肿</li>
+<li>肺内有可变性结节状阴影或空洞</li>
+<li>皮肤有紫癜、结节。</li>
+</ol>
+<p>治疗方案及原则</p>
+<p>治疗方案可分为三期：诱导缓解、持续缓解以及控制复发</p>
+<p>循证医学显示糖皮质激素加环磷酰胺联合治疗有显著疗效，特别是肾脏受累以及具有严重呼吸系统疾病的患者，应作为首选治疗方案</p>
+<h3 class="crossnote-header" id="%E5%97%9C%E9%85%B8%E6%80%A7%E8%82%89%E8%8A%BD%E8%82%BF%E6%80%A7%E5%A4%9A%E8%A1%80%E7%AE%A1%E7%82%8Eegpachurg-strauss%E7%BB%BC%E5%90%88%E5%BE%81">嗜酸性肉芽肿性多血管炎EGPA(Churg-Strauss综合征)</h3>
+
+<h4 class="crossnote-header" id="abstract">Abstract</h4>
+
+<p>EGPA发生率约为3人/百万。平均起病年龄为48岁。EGPA以血管外形成坏死性肉芽肿（通常多嗜酸性粒细胞浸润），嗜酸性粒细胞增多症和组织浸润有嗜酸性粒细胞为特点。然而，这些异常表现不总是都能看到。典型的血管炎可影响小和中等大小动脉。任何脏器均可受累，肺部、皮肤、鼻窦、心血管系统、肾脏、周围神经系统、CNS、关节、胃肠道是最常见的受累部位。但EGPA相关的肺毛细血管炎很少会引起肺泡出血。以心肌炎和心力衰竭为表现的心脏受累是 EGPA 死亡的主要原因。该病病因尚不明确。</p>
+<h4 class="crossnote-header" id="%E4%B8%B4%E5%BA%8A%E7%97%87%E7%8A%B6">临床症状：</h4>
+
+<p>该综合征主要有三个阶段，各阶段可相互重叠：</p>
+<p><em>前驱症状</em>：该期可持续数年。患者可有过敏性鼻炎，鼻息肉，哮喘或兼而有之。</p>
+<p><em>第二阶段</em>：典型表现为外周血和组织中嗜酸性粒细胞增多。临床表现类似吕弗勒综合征，包括慢性嗜酸性粒细胞肺炎和嗜酸性粒细胞胃肠炎。</p>
+<p><em>第三阶段</em>：形成极有可能危及生命的血管炎。 器官功能障碍和全身症状（比如发热、不适、体重减轻、疲乏）在这一阶段常见。</p>
+<p>但是，这些阶段并不是一个接着一个连续发生的，在各阶段之间的时间间隔可有很大差别。</p>
+<p>多个器官和系统可能受累：</p>
+<p>呼吸系统：大多数患者可发生哮喘，且多在成年期发作，可较严重并为糖皮质激素依赖型。鼻窦炎亦常见，但为非破坏型，一般不伴有严重的坏死性炎症。患者可能出现气短。常见一过性的肺部片状浸润阴影。</p>
+<p>神经系统：神经系统表现亦很常见。四分之三的患者可出现 多发性单神经病（多发性单神经炎）。中枢神经系统受累较少见，可表现为轻偏瘫、意识模糊、癫痫发作及昏迷，伴或不伴脑神经麻痹或小脑梗死依据。</p>
+<p>皮肤：半数患者可有皮肤受累。在肢端伸侧面可见结节和丘疹。这是由于血管周围一圈肉芽肿病变伴有中心坏死区。伴或不伴大量嗜酸性粒细胞浸润的白细胞破碎性血管炎可形成紫癜和红斑丘疹。</p>
+<p>肌肉骨骼：可出现关节痛、肌痛，甚至关节炎 。</p>
+<p>心脏： 心脏受累是死亡的主要原因，包括由于心肌炎和心内膜纤维化导致的心力衰竭，冠状动脉血管炎（可能并发MI）、瓣膜疾病和心包炎。主要的病理学表现为嗜酸性粒细胞浸润性心肌炎。</p>
+<p>胃肠道：高达1/3的患者呈现胃肠道症状（比如腹部疼痛、腹泻、出血和无结石胆囊炎），归因于嗜酸性粒细胞性胃肠炎或血管炎导致的肠系膜缺血。</p>
+<p>肾脏：与其他中性粒细胞胞浆抗体相关性血管炎相比，肾脏往往较少受累。一般说来，可能出现寡免疫（几乎没有任何免疫复合物存在）、伴有新月体形成的局灶节段性坏死性肾小球肾炎；肾脏出现嗜酸性粒细胞性或肉芽肿性炎症很少见。</p>
+<p><em><strong>值得一提的是，肾脏、心脏或神经系统受累者往往提示预后较差</strong></em></p>
+<h4 class="crossnote-header" id="%E8%AF%8A%E6%96%AD">诊断</h4>
+
+<p>2012年的教堂山共识会议将嗜酸性肉芽肿性多血管炎(EGPA)定义为涉及哮喘和嗜酸性粒细胞增多、与坏死性小和中等大小血管炎相关的呼吸道富嗜酸性粒细胞和坏死性肉芽肿性炎症。Criteria for classification美国风湿病学会分类标准，包括以下几项：</p>
+<ul>
+<li>哮喘</li>
+<li>外周血中嗜酸性粒细胞增多&gt;10%</li>
+<li>鼻旁窦炎</li>
+<li>肺部浸润阴影，有时呈一过性</li>
+<li>病理学证实血管外嗜酸性粒细胞增多的血管炎</li>
+<li>多发性单神经病或多神经病</li>
+</ul>
+<p>如果符合≥4条分类标准，诊断的敏感性是85%，特异性是99.7%。</p>
+<p>检查的目的在于明确诊断和器官累及的程度，并鉴别EGPA和其他嗜酸性粒细胞疾病（如 寄生虫感染、 药物反应、 急性嗜酸性粒细胞性肺炎 和 慢性嗜酸性粒细胞性肺炎、 过敏性支气管肺曲霉病和 高嗜酸性粒细胞综合征）。临床表现和常规实验室检查结果可以提示该病，但是通常需要肺部或者其他受累器官活检来确定诊断。</p>
+<p>需要检查血和胸片，虽然其结果不具有诊断性。 全血细胞计数与分类检查明确是否存在嗜酸性粒细胞增多症，这对于某些患者可能是疾病活动的一个标志。定期复查IgE、C反应蛋白和红细胞沉降率（ESR）水平来评价炎症活动性。查尿常规和肌酸酐以筛查肾脏疾病和监测其严重性。检查电解质水平。</p>
+<p>血清学检查在40%的患者中发现抗中性粒细胞胞浆自身抗体(ANCA)；如果发现了ANCA，则需要酶联免疫吸附剂测定(ELISA)以测定特定抗体。对髓过氧化物酶起反应的核周型ANCA（p-ANCA）是最常见的结果，然而ANCA并不是EGPA高特异性或敏感性的检查。</p>
+<p>作为疾病活性的标志物，嗜酸性粒细胞、IgE、ANCA、ESR和C-反应蛋白水平有协助作用，并在某些条件下可预测发作。</p>
+<p>胸片可以显示肺部一过性斑片状浸润影。</p>
+<p>所有患者应在基线时进行二维超声心动图检查，如果出现心力衰竭的症状和/或体征，随访过程中应重复进行该项检查。</p>
+<p>如果可行的话，应对受累组织进行活检。</p>
+<h4 class="crossnote-header" id="%E6%B2%BB%E7%96%97">治疗</h4>
+
+<p>全身应用皮质类固醇激素联合免疫抑制剂是治疗嗜酸性肉芽肿伴多血管炎（EGPA）的主要手段，这是因为即使没有预后不良因素，单独使用糖皮质激素也往往不能维持缓解。根据 肉芽肿性多血管炎和 显微镜下多血管炎相同的一般标准治疗，也可使用其它免疫抑制剂（例如环磷酰胺、利妥昔单抗、甲氨喋呤、硫唑嘌呤），这取决于器官受累的严重程度和类型。在41例EGPA利妥昔单抗治疗的回顾性研究中，49％患者在12个月时缓解，且应用利妥昔单抗减少了糖皮质激素的需求。该结果优于其他治疗方法。每4周一次皮下注射300毫克美波利珠单抗可降低轻中度、复发性或难治性EGPA的复发率。益处主要在上呼吸道和下呼吸道，包括活动性哮喘。美泊利单抗在严重表现（包括心脏病）患者中的作用尚不清楚。</p>
+<h2 class="crossnote-header" id="%E4%BA%8C%E5%85%83%E8%AF%8A%E6%96%AD">二元诊断</h2>
+
+<p><em><strong>但是, 值得注意的是: 以上两种的可能可以解释的内容都无法解释包括12日的菌尿, BNP升高, 以及血沉升高等的指标的变化</strong></em></p>
+<p>由此, 我们考虑患者的疾病可能两个或者多个疾病的共同的结果. 鉴于三个及三个以上疾病的讨论的复杂性, 在此我们仅以两个疾病之间的相互关系引起的病患的表现为方向.</p>
+<p>在进行下面的讨论之前, 我们希望可以先对一篇给予我们启发的文章进行分析.</p>
+<p>文章中: 一例35岁男性患者，先天性室间隔缺损，出现快速进展性新月体肾小球肾炎，其组织学特征为与感染性心内膜炎相关的GPA。患者的肾活检显示GPA的组织病理学特征，如坏死性肉芽肿、坏死性血管炎和PR3-ANCA阳性。由于免疫抑制药物可能会加重感染性心内膜炎，因此只给予抗菌药物（氨苄西林-舒巴坦）。随后，患者的炎症反应逐渐减轻，肾功能、尿液检查和PR3-ANCA水平有所改善。文章提示, 监测PR3-ANCA水平和重复肾活检可能有助于评估这些病例的病理情况。</p>
+<p>在这个病例中, 病人的各项肾功能相关指标均与35床的李的指标相近, 虽然我们没有看到其中有对菌尿, BNP等的描述. 但是由于病人已经发展为新月体性肾小球肾炎来判断, 病人出现血尿和蛋白尿的情况与李的情况相对比的判断, 文献中的病人的情况是远差于李的, 此文献中的病人的肾的滤过率是远差于李的, 也就是当其出现血中的细菌升高的情况, 那么出现血尿的情况的可能也应该是远高于李的, 对此我们不作怀疑, 而同时由于BNP和血沉是两种可以反映心脏功能和炎症反应的指标，它们在感染性心内膜炎相关联, 我们也可以合理解释其极有可能升高, 或者说, 通过这个, 即感染, 我们可以解释李的血沉和BNP升高的原因.</p>
+<p>下面我们来看引起李的血沉和BNP升高的感染因素, 于我们所估计的为: 特发性嗜酸性粒细胞肺炎, Idiopathic chronic eosinophilic pneumonia (ICEP). 在BMC下属Orphanet J Rare Dis中的一篇06年的文章中, 提及:</p>
+<blockquote>
+<p>特发性慢性嗜酸性粒细胞性肺炎 (ICEP) 是一种原因不明的罕见疾病，其特征为亚急性或慢性呼吸道和全身症状、肺泡和/或血液嗜酸性粒细胞增多以及胸部影像学显示周围肺部浸润。 ICEP没有严格的诊断标准。诊断通常基于以下关联：</p>
+<ol>
+<li>
+<p>respiratory symptoms of usually more than 2 weeks duration;</p>
+</li>
+<li>
+<p>呼吸道症状通常持续超过2周；</p>
+</li>
+<li>
+<p>alveolar and/or blood eosinophilia (alveolar eosinophilia ≥ 40% at bronchoalveolar lavage (BAL) differential cell count; blood eosinophilia ≥ 1000/mm3);</p>
+</li>
+<li>
+<p>肺泡和/或血液嗜酸粒细胞增多（支气管肺泡灌洗（BAL）分类细胞计数时肺泡嗜酸粒细胞增多≥40%；血液嗜酸粒细胞增多≥1000/mm 3 ）；</p>
+</li>
+<li>
+<p>pulmonary infiltrates with usually a peripheral predominance on chest imaging;</p>
+</li>
+<li>
+<p>胸部影像学显示，肺部浸润通常以外周为主；</p>
+</li>
+<li>
+<p>exclusion of any known cause of eosinophilic lung disease.</p>
+</li>
+<li>
+<p>排除任何已知的嗜酸性粒细胞性肺部疾病病因。</p>
+</li>
+</ol>
+</blockquote>
+<p>巧合的是李的情况恰巧符合这一指标</p>
+<p>这一文献中也指出:</p>
+<blockquote>
+<p>ICEP 的治疗基于口服皮质类固醇。开始治疗后，症状和血液嗜酸性粒细胞增多在几个小时内消退，胸部影像学结果在几天内恢复正常</p>
+</blockquote>
+<p>李在使用皮质类固醇来药物之后也得到了实质性的缓解.</p>
+<blockquote>
+<blockquote>
+<p>但是显然的, 虽然在9月8号的检查中确实有左室舒张功能下降, 二尖瓣轻度反流, 主动脉瓣轻度反流, 三尖瓣轻度反流. 虽然这些确实都可能由感染性心内膜炎引起, 但是这里我们更倾向于这是PR3-ANCA所至. 当然也不排除感染性心内膜炎的可能.</p>
+</blockquote>
+</blockquote>
+<p>另外, 文章提到:</p>
+<blockquote>
+<p>正如已经提到的，ICEP 和 CSS 之间可能存在连续体，至少在某些患者中是这样。</p>
+</blockquote>
+<p>而由于CSS本身和这里所讨论的疾病有着亲缘关系, 我们认为CSS存在关联, 那么此中讨论的疾病之间也存在相似的关联性, 而这一观点在今年五月的一篇文章中进行阐述, 其中就回顾了GPA和EGPA的ANCA对病程的影响与进展. <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>. 另外这个这篇文献也提及PR3-ANCA阳性的患者的心肌炎的诱导作用, 藉此, 我们认为该病人的诊断的疑点均已被填补.</p>
+<p>即, 病人为PR3-ANCA介导的肾小球肾炎伴特发性嗜酸性粒细胞肺炎.</p>
+<h1 class="crossnote-header" id="%E6%9C%BA%E5%88%B6%E4%BB%8B%E7%BB%8D">机制介绍</h1>
+
+<p><img src="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=5628710_CJN.02500317f4.jpg" alt="ANCA"></p>
+<p>该图描绘了 ANCA 血管炎和 GN 中血管病变的发病机制。从左到右的事件在每个损伤部位依次发生，并在多个部位重复启动，直到诱导缓解。嗜中性粒细胞引发，例如通过协同感染产生的细胞因子，引发嗜中性粒细胞并在嗜中性粒细胞的表面和微环境中呈递ANCA抗原。 ANCA 激活的中性粒细胞粘附并穿透血管壁，释放破坏性炎症介质并发生 NETosis(NETosis 是中性粒细胞激活和细胞死亡的一种形式，导致 NETS 释放，其中包含从解压缩染色质中挤出的 DNA 框架，并装饰有多种粘附细胞质蛋白，包括 MPO 和 PR3，其中许多蛋白具有抗菌特性。)。 ANCA 激活的中性粒细胞释放激活替代补体途径的因子，该途径生成 C5a 并通过吸引和启动更多中性粒细胞来放大炎症。在血管壁破裂的部位，血浆溢出到坏死区，凝血因子被激活产生纤维蛋白，导致组织血管中的纤维蛋白样坏死和肾小球中的新月体。白细胞发生凋亡和坏死，产生白细胞破裂。几天之内，急性炎症和坏死被浸润的巨噬细胞和淋巴细胞所取代，随着激活的成纤维细胞和肌成纤维细胞沉积胶原蛋白，疤痕开始形成。 （仅在急性损伤的右侧显示 ANCA 对单核细胞的激活，这与所有急性损伤部位的中性粒细胞激活同时发生。）NET，中性粒细胞胞外陷阱。</p>
+<div class="mermaid">graph TD
+A[嗜中性粒细胞引发] --&gt; B[嗜中性粒细胞呈递ANCA抗原]
+B --&gt; C[ANCA激活的中性粒细胞粘附并穿透血管壁]
+C --&gt; D[释放破坏性炎症介质]
+C --&gt; E[发生NETosis]
+D --&gt; F[血管壁破裂]
+E --&gt; G[释放NETS]
+F --&gt; H[血浆溢出到坏死区]
+G --&gt; I[激活替代补体途径]
+H --&gt; J[凝血因子被激活产生纤维蛋白]
+I --&gt; K[生成C5a]
+J --&gt; L[导致组织血管中的纤维蛋白样坏死和肾小球中的新月体]
+K --&gt; M[吸引和启动更多中性粒细胞]
+L --&gt; N[白细胞发生凋亡和坏死]
+M --&gt; C
+N --&gt; O[产生白细胞破裂]
+O --&gt; P[急性炎症和坏死被浸润的巨噬细胞和淋巴细胞所取代]
+P --&gt; Q[疤痕开始形成]
+</div><hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Justyna Fijołek and Elżbieta Radzikowska (2023). Eosinophilic granulomatosis with polyangiitis – Advances in pathogenesis, diagnosis, and treatment. Frontiers in Medicine, 10. doi:<a href="https://doi.org/10.3389/fmed.2023.1145257">https://doi.org/10.3389/fmed.2023.1145257</a>. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+      </div>
+      
+      
+    
+    
+    <script type="module">
+// TODO: If ZenUML gets integrated into mermaid in the future,
+//      we can remove the following lines.
+import zenuml from 'https://cdn.jsdelivr.net/npm/@mermaid-js/mermaid-zenuml@0.1.0/dist/mermaid-zenuml.esm.min.mjs';
+await mermaid.registerExternalDiagrams([zenuml])
+
+var MERMAID_CONFIG = ({"startOnLoad":false});
+if (typeof MERMAID_CONFIG !== 'undefined') {
+  MERMAID_CONFIG.startOnLoad = false
+  MERMAID_CONFIG.cloneCssStyles = false
+  MERMAID_CONFIG.theme = "default"
+}
+mermaid.initialize(MERMAID_CONFIG || {})
+if (typeof(window['Reveal']) !== 'undefined') {
+  function mermaidRevealHelper(event) {
+    var currentSlide = event.currentSlide
+    var diagrams = currentSlide.querySelectorAll('.mermaid')
+    for (var i = 0; i < diagrams.length; i++) {
+      var diagram = diagrams[i]
+      if (!diagram.hasAttribute('data-processed')) {
+        mermaid.init(null, diagram, ()=> {
+          Reveal.slide(event.indexh, event.indexv)
+        })
+      }
+    }
+  }
+  Reveal.addEventListener('slidechanged', mermaidRevealHelper)
+  Reveal.addEventListener('ready', mermaidRevealHelper)
+} else {
+  await mermaid.run({
+    nodes: document.querySelectorAll('.mermaid')
+  })
+}
+</script>
+    
+    
+    
+  
+    </body></html>
