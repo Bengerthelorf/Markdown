@@ -329,7 +329,7 @@ $$
     &= \sum (y_i - \bar{y} + \hat{\beta_1} \bar{x} - \hat{\beta_1} x_i)(\bar{y} - \hat{\beta_0} + \hat{\beta_1}x - \bar{y}) \\
     &= \sum ((y_i - \bar{y}) - \hat{\beta_1} (x_1 - \bar{x}) )\hat{\beta_1}(x_i - \bar{x}) \\
     &= \sum (\hat{\beta_1}(x_i - \bar{x})(y_i - \bar{y}) - \hat{\beta_1} ^{2}(x_1 - \bar{x})^{2}) \\
-    &= \hat{\beta_1} \sum (x_i - \bar{x})(y_i - \bar{y}) - \hat{\beta_1} ^{2} \sum (x_1 - \bar{x})^{2} \tag{⑨} \\
+    &= \hat{\beta_1} \sum (x_i - \bar{x})(y_i - \bar{y}) - \hat{\beta_1} ^{2} \sum (x_1 - \bar{x})^{2} \\
 \end{align*}
 $$
 
@@ -339,11 +339,11 @@ $$
 \hat{\beta_1} = \frac{\sum (x_i - \bar{x})(y_i-\bar{y})}{\sum (x_i - \bar{x})^{2}}
 $$
 
-所以, 对于$⑨$, 易得:
+所以, 易得:
 
 $$
 \begin{align*}
-    ⑨ &= \frac{[\sum (x_i - \bar{x})(y_i - \bar{y}] ^{2})}{\sum (x_i - \bar{x})^{2}} - \frac{[\sum (x_i - \bar{x})(y_i - \bar{y})] ^{2} \cdot \sum (x_i - \bar{x})^{2}}{[\sum (x_i - \bar{x})^{2}] ^{2}} \\
+    \sum (y_i - \hat{y_i})(\hat{y_i} - \bar{y}) &= \frac{[\sum (x_i - \bar{x})(y_i - \bar{y}] ^{2})}{\sum (x_i - \bar{x})^{2}} - \frac{[\sum (x_i - \bar{x})(y_i - \bar{y})] ^{2} \cdot \sum (x_i - \bar{x})^{2}}{[\sum (x_i - \bar{x})^{2}] ^{2}} \\
     &= \frac{[\sum (x_i - \bar{x})(y_i - \bar{y}] ^{2})}{\sum (x_i - \bar{x})^{2}} - \frac{[\sum (x_i - \bar{x})(y_i - \bar{y}] ^{2})}{\sum (x_i - \bar{x})^{2}} \\
     &= 0
 \end{align*}
