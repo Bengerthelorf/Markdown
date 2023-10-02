@@ -6,3 +6,11 @@
 | N ~1~ |   Ⅱ   |   Ⅱ    |   Ⅲ   |  Ⅲ   |
 | N ~2~ |   Ⅲ   |   Ⅲ    |   Ⅲ   |  Ⅲ   |
 | N ~3~ |   Ⅲ   |   Ⅲ    |   Ⅲ   |  Ⅲ   |
+
+
+$$
+\begin{align}
+    \hat{\beta} \sim N(\beta, \sigma ^{2} (X ^{\top} X) ^{-1} ) \tag{0.1} \\
+    (N - p) \hat{\sigma} ^{2} \sim \sigma ^{2} {X _{N-p}} ^{2}  \tag{0.2}
+\end{align}
+$$
