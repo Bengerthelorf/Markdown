@@ -36,3 +36,23 @@ $$
 
 由于 $\hat{\sigma} ^{2}$ 是一个$\epsilon$的二次函数，而 $\epsilon$ 服从正态分布，所以根据卡方分布的性质，$\hat{\sigma} ^{2}$ 也服从卡方分布：
 
+由 $E(\epsilon) = 0$: 
+
+$$
+\begin{align*}
+    E((N - p) \hat{\sigma} ^{2}) &= E(\sum_{i=1}^{N}(y_i-\hat y_i)^2) \\
+    &= E(\sum_{i=1}^{N}(X\beta+\epsilon_i-X\hat\beta)^2) \\
+    &= E(\sum_{i=1}^{N}(X(\beta-\hat\beta)+\epsilon_i)^2) \\
+    &= E(\sum_{i=1}^{N}\epsilon_i^2+(\beta-\hat\beta)^T(X^T\epsilon+\epsilon^T\hat\beta)) \\
+    &= E(\sum_{i=1}^{N}\epsilon_i^2+0) \\
+    &= E(tr(\epsilon^T\epsilon)) \\
+    &= tr(E(\epsilon^T\epsilon)) \\
+    &= tr(cov(\epsilon)) \\
+    &= tr(\sigma^2I_N) \\
+    &= N\sigma^2
+\end{align*}
+$$
+
+由于 $cov(\epsilon) = \sigma ^{2} I _{N}$，所以 $\epsilon$ 的每个分量都互相独立，并且都服从正态分布，所以根据卡方分布的性质，$(N - p) \hat\sigma^2$ 的自由度等于 $\epsilon$ 的秩，即 $N$ 减去 $X$ 的秩，即 $N - p$。
+
+综上所述，我们可以得出结论：$(N - p) \hat{\sigma} ^{2} \sim \sigma ^{2} {X _{N-p}} ^{2}$
