@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86ee4015-fb39-4846-bbae-05df705477d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/liner algebra/CN/1.4 行列式的计算（二）.md" beforeDir="false" afterPath="$PROJECT_DIR$/liner algebra/CN/1.4 行列式的计算（二）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/Sanxia.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/Sanxia.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": -1
+  "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2TGT0DxgmDQfWALA9ufm1eEhZb4" />
   <component name="ProjectViewState">
@@ -30,6 +29,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Cod",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "//wsl$/Ubuntu/home/ben/Fudan-Courses",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -42,7 +43,11 @@
       <option name="presentableId" value="Default" />
       <updated>1690668194024</updated>
       <workItem from="1690668197705" duration="3000" />
+      <workItem from="1697299401622" duration="73000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
