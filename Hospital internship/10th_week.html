@@ -1,0 +1,481 @@
+<!DOCTYPE html><html><head>
+      <title>10th_week</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\Newbi\.vscode-insiders\extensions\shd101wyy.markdown-preview-enhanced-0.8.10\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+.markdown-preview.markdown-preview {
+  font-family: "Noto Sans SC";
+}
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="呼吸">呼吸 </h1>
+<h2 id="1-哮喘药物的治疗代表药物-分级控制">1. 哮喘药物的治疗代表药物, 分级(控制) </h2>
+<h3 id="11-代表药物">1.1. 代表药物 </h3>
+<ul>
+<li>糖皮质激素
+<ul>
+<li>吸入型: 丙酸倍氯米松, 氟替卡松</li>
+<li>口服型: 泼尼松</li>
+<li>静脉注射型: 羟基异丙基氢化可的松</li>
+</ul>
+</li>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\beta _2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>受体激动剂
+<ul>
+<li>SABA: 沙丁胺醇, 特布他林</li>
+<li>LABA: 沙美特罗, 丙卡特罗</li>
+</ul>
+</li>
+<li>LT调节剂: 孟鲁司特</li>
+<li>茶碱类: 氨茶碱</li>
+<li>抗胆碱能药物
+<ul>
+<li>SAMA: 异丙托溴铵</li>
+<li>LAMA: 噻托嗅铵</li>
+</ul>
+</li>
+<li>色甘酸钠</li>
+<li>免疫药物: 抗IgE抗体, SIT</li>
+<li>其他: 抗组胺, 中医药</li>
+</ul>
+<hr>
+<ul>
+<li>支气管扩张剂：
+<ul>
+<li><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\beta _2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>受体激动剂</li>
+<li>茶碱类</li>
+<li>抗胆碱药物</li>
+</ul>
+</li>
+<li>抗炎药：
+<ul>
+<li>糖皮质激素</li>
+<li>LT调节剂</li>
+<li>色苷酸钠</li>
+<li>抗过敏药物</li>
+</ul>
+</li>
+</ul>
+<h3 id="12-分级">1.2. 分级 </h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">缓解性药物</th>
+<th style="text-align:center">控制性药物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">按需使用SABA</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">⬆</td>
+<td style="text-align:center">首选低剂量ICS</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">按需使用SABA或低剂量ICS + 福莫特罗</td>
+<td style="text-align:center">首选低剂量ICS + LABA</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">⬆</td>
+<td style="text-align:center">首选中剂量ICS + LABA</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:center">⬆</td>
+<td style="text-align:center">首选中高剂量ICS + LABA + 抗IgE治疗/支气管热成形术</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-大咯血-那些疾病-并发症-预防治疗-原因疾病分类举例">2. 大咯血, 那些疾病, 并发症, 预防治疗, 原因(疾病分类举例) </h2>
+<h3 id="21-疾病--原因">2.1. 疾病 &amp;&amp; 原因 </h3>
+<ol>
+<li>支气管疾病: 常见的有支气管扩张症、支气管肺癌、支气管结核和 COPD 等; 较少见的有支气管结石、良性支气管瘤、支气管黏膜非特异性溃疡等.
+<blockquote>
+<p><strong>原因</strong>: 其咯血主要是由于炎症、肿瘤或结石损伤支气管黏膜, 或病灶处毛细血管通透性增高或黏膜下血管破裂所致.</p>
+</blockquote>
+</li>
+<li>肺部疾病: 如肺结核、肺炎、肺脓肿、肺淤血、肺栓塞、肺真菌病、肺吸虫病、肺阿米巴病、肺囊肿、肺泡炎、肺含铁血黄素沉着症、恶性肿瘤肺转移等.
+<blockquote>
+<p><strong>原因</strong>: 肺部病变使毛细血管通透性增高, 血液渗出, 或病变侵蚀小血管使其破裂出血</p>
+</blockquote>
+</li>
+<li>心血管疾病: 如急性左心衰竭、原发性肺动脉高压、某些先天性心脏病(如房间隔缺损、动脉导管未闭等引起肺动脉高压时)、肺血管炎、肺动静脉瘘等.
+<blockquote>
+<p><strong>原因</strong>: 其机制为肺淤血导致肺泡壁或支气管内膜毛细血管破裂, 或支气管黏膜下层支气管静脉曲张破裂.</p>
+</blockquote>
+</li>
+<li>其他:
+<ul>
+<li><strong>血液病</strong>, 如特发性血小板减少性紫癜、白血病、血友病、再生障碍性贫血等;</li>
+<li><strong>急性传染病</strong>, 如流行性出血热、肺出血型钩端螺旋体病等;</li>
+<li><strong>风湿性疾病</strong>, 如 Wegener 肉芽肿、白塞病、系统性红斑狼疮( SLE )等;</li>
+<li><strong>支气管子宫内膜异位症</strong>等.</li>
+</ul>
+<blockquote>
+<p><strong>原因</strong>: 其机制为凝血功能障碍, 气管、支气管子宫内膜异位症的内膜周期性剥落等而导致出血.</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="22-并发症">2.2. 并发症 </h3>
+<p>窒息, 失血性休克, 吸入性肺炎, 肺不张</p>
+<h3 id="23-预防治疗">2.3. 预防治疗 </h3>
+<ol>
+<li><strong>窒息</strong>:
+<ol>
+<li><strong>尽快清除堵塞气道的积血, 保持气道通畅</strong>: 迅速将病人抱起, 使其头朝下, 上身与床沿成45°-90°角. 助手轻托病人的头中使其向背部屈曲, 以减少气道的弯曲. 并拍击病人背部, 尽可能倒出滞留在气道内的积血. 同时将口撬开(注意义齿), 清理口咽部的积血, 然后用粗导管(或纤支镜)经鼻插入气管内吸出积血.</li>
+<li><strong>吸氧</strong>: 立即给予高流量的氧气吸入.</li>
+<li><strong>迅速建立静脉通道</strong>: 最好建立两条静脉通道, 并根据需要给予呼吸兴奋剂、止血药物及补充血容量.</li>
+<li><strong>绝对卧床</strong>: 待窒息解除后, 保持病人于头低足高位, 以利体位引流. 胸部可放置冰袋, 并鼓励病人将气道内积血咳出.</li>
+<li><strong>加强生命体征监测, 防止再度窒息发生</strong>: 注意血压、心率、心电、呼吸及血氧饱和度等的监测, 准备好气管插管及呼吸机等设施, 以防再窒息.</li>
+</ol>
+</li>
+<li><strong>失血性休克</strong>: 若患者因大量咯血而出现脉搏细速、四肢湿冷、血压下降、脉压差减少, 甚至意识障碍等失血性休克的临床表现时, 应按照失血性休克的救治原则进行抢救.</li>
+<li><strong>吸入性肺炎</strong>: 咯血后, 病人常因血液被吸收而出现发热, 体温38℃左右或持续不退, 咳嗽剧烈, 白细胞总数升高、核左移、胸片示病变较前增多, 常提示合并有吸入性肺炎或结核病灶播散, 应给予充分的抗生素或抗结核药物治疗.</li>
+<li><strong>肺不张</strong>: 由于大量咯血, 血块堵塞支气管; 或因病人极度虚弱, 镇静剂、镇咳剂的用量过度, 妨碍了支气管内分泌物和血液排出, 易造成肺不张. 肺不张的处理, 首先是引流排血或排痰, 并鼓励和帮助病人咳嗽. 若肺不张时间不长, 可试用<strong>氨茶碱、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>α</mi></mrow><annotation encoding="application/x-tex">\alpha</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.0037em;">α</span></span></span></span>-糜蛋白酶</strong>等, 雾化吸入, 湿化气道, 以利于堵塞物的排出. 当然消除肺不张的最有效办法, 是在纤维支气管镜下进行局部支气管冲洗, 清除气道内的堵塞物.</li>
+</ol>
+<h2 id="3-慢性咳嗽定义-常见病因-治疗药物">3. 慢性咳嗽定义, 常见病因, 治疗药物 </h2>
+<h3 id="31-慢性咳嗽定义">3.1. 慢性咳嗽定义 </h3>
+<p>慢性咳嗽的定义认为咳嗽时间持续≥8周以上, X线胸片无明显肺疾病证据的咳嗽称为慢性咳嗽, 咳嗽往往是患者惟一就诊症状。慢性咳嗽是呼吸系统常见的临床症状之一。</p>
+<h3 id="32-常见病因">3.2. 常见病因 </h3>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>1</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 慢性支气管炎, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>2</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 鼻后滴漏, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>3</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{3}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 呼吸道感染消退后仍然存在的气道刺激(也称为感染后咳嗽), <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>4</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{4}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">4</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 胃食管反流, <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>5</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{5}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">5</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 反应性气道疾病/哮喘</p>
+<h3 id="33-治疗药物">3.3. 治疗药物 </h3>
+<ol>
+<li>治疗基础疾病。e.g. 抗生素用于肺炎; 含有扩张气道（支气管扩张剂）或糖皮质激素药物的吸入器, 可用于慢性阻塞性肺疾病(COPD)或哮喘.</li>
+<li>镇咳药物, 镇咳药包括以下几种:
+<ol>
+<li>阿片类药物: 所有阿片类药物都能通过抑制大脑的咳嗽中枢发挥镇咳作用。可待因是最常见的阿片类镇咳药物。</li>
+<li>右美沙芬(Dextromethorphan)</li>
+<li>苯佐那酯(Benzonatate)</li>
+</ol>
+<blockquote>
+<p><em><strong>P.S.</strong></em> 对于一些尤其是大量咳痰的病人, 应避免频繁使用镇咳药物。</p>
+</blockquote>
+</li>
+<li>祛痰药</li>
+<li>其他药物
+<ol>
+<li>抗组胺药</li>
+<li>去氧肾上腺素</li>
+</ol>
+</li>
+</ol>
+<h2 id="4-哮喘定义-诊断标准-治疗原则">4. 哮喘定义, 诊断标准, 治疗原则 </h2>
+<h3 id="41-哮喘定义">4.1. 哮喘定义 </h3>
+<p>是一种由多种细胞和细胞组分参与的慢性变态反应性炎症性气道疾病</p>
+<h3 id="42-诊断标准">4.2. 诊断标准 </h3>
+<blockquote>
+<p>(符合 1-4 条或符合 4+5)</p>
+</blockquote>
+<ol>
+<li>激发: 反复发作性喘息、气急、胸闷、咳嗽, 多与接触变应原等刺激有关</li>
+<li>发作: 双肺可闻及散在/弥漫性、以呼气相为主的哮鸣音, 呼气相延长</li>
+<li>缓解: 上述症状可经治疗缓解或自行缓解</li>
+<li>排除: 除外其它疾病所引起的喘息、气急、胸闷、咳嗽</li>
+<li>不典型者应具备可逆性气流受限的客观检查结果(3选1):
+<ol>
+<li>支气管激发试验/运动激发试验(+);</li>
+<li>支气管舒张试验(+);</li>
+<li>昼夜PEF变异率 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>≥</mo></mrow><annotation encoding="application/x-tex">\geq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mrel">≥</span></span></span></span> 20%</li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>★ 咳嗽变异性哮喘(CVA)的诊断: 以咳嗽为唯一/主要症状, 无喘息、气急等典型哮喘症状, 同时具备可逆性气流受限的客观检查结果; 除外其他疾病所致咳嗽</p>
+</blockquote>
+<h3 id="43-治疗原则">4.3. 治疗原则 </h3>
+<p>目的: <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>1</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 控制症状；维持正常活动（包括运动能力）；<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>2</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 维持肺功能水平尽量接近正常；<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>3</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{3}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 预防哮喘急性加重；<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>4</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{4}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">4</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 避免因哮喘药物治疗导致的不良反应；<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>5</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{5}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">5</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 预防哮喘导致的死亡</p>
+<hr>
+<ol>
+<li>一般治疗：减少危险因素、避开过敏原</li>
+<li>氧疗</li>
+<li>药物治疗: 使急性发作尽快完全缓解及避免近期复发的最低剂量和疗程，尽量不用/少用地塞米松, 掌握指征，及时应用合适剂量及疗程, 减量同时加用ICS</li>
+</ol>
+<h4 id="431-快速缓解用药">4.3.1. 快速缓解用药 </h4>
+<ul>
+<li>速效吸入型<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\beta _2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>受体激动剂</li>
+<li>短效口服<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\beta _2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>受体激动剂</li>
+<li>抗胆碱能药物</li>
+<li>甲基黄嘌呤</li>
+<li>全身性皮质激素</li>
+</ul>
+<h4 id="432-长期控制用药">4.3.2. 长期控制用药 </h4>
+<ul>
+<li>吸入型糖皮质激素</li>
+<li>吸入长效<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\beta _2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>激动剂</li>
+<li>口服长效<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\beta _2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>激动剂</li>
+<li>抗白三烯药物</li>
+<li>甲基黄嘌呤</li>
+<li>色甘酸钠/尼多克罗米</li>
+<li>全身激素</li>
+</ul>
+<h4 id="433-轻至中度急性发作">4.3.3. 轻至中度急性发作 </h4>
+<ul>
+<li>短效<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>β</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\beta _2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05278em;">β</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:-0.0528em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>激动剂</li>
+<li>氨茶碱</li>
+<li>抗胆碱药物</li>
+<li>糖皮质激素</li>
+</ul>
+<h4 id="434-重危急性发作">4.3.4. 重危急性发作 </h4>
+<ul>
+<li>吸氧</li>
+<li>支气管扩张剂</li>
+<li>糖皮质激素</li>
+<li>补液</li>
+<li>机械通气</li>
+<li>其他治疗</li>
+</ul>
+<h2 id="5-copd诊断-严重程度及肺功能分级">5. COPD诊断, 严重程度及肺功能分级 </h2>
+<h3 id="51-copd的诊断">5.1. COPD的诊断 </h3>
+<ol>
+<li>怀疑：吸烟等高危因素+临床表现(但并不是确诊所必须的因素)</li>
+<li>确诊：肺功能检查显示不完全可逆的气道阻塞和气流受限(吸入支气管 扩张药后FEV<sub>1</sub>/FVC <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&lt;</mo></mrow><annotation encoding="application/x-tex">&lt;</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&lt;</span></span></span></span> 70%; FVC和FEV<sub>1</sub>取3次测量的最大值，并且要求3次测量中最大值和最小值差异 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&lt;</mo></mrow><annotation encoding="application/x-tex">&lt;</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&lt;</span></span></span></span> 5%(150ml))同时排除其它相关疾病</li>
+<li>少数患者无咳嗽咳痰症状，但肺功能检查阳性，排除其它相关疾病后也可诊断</li>
+</ol>
+<h3 id="52-严重程度评估">5.2. 严重程度评估 </h3>
+<ol>
+<li>肺功能评估(GOLD分级)
+<table>
+<thead>
+<tr>
+<th style="text-align:center">分级</th>
+<th style="text-align:center">FEV<sub>1</sub>/FVC <sub>(分级标准)</sub></th>
+<th style="text-align:center">FEV<sub>1</sub>%预测值 <sub>(分级标准)</sub></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1级(轻度)</td>
+<td style="text-align:center"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&lt;</mo></mrow><annotation encoding="application/x-tex">&lt;</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&lt;</span></span></span></span> 70%</td>
+<td style="text-align:center"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>≥</mo></mrow><annotation encoding="application/x-tex">\geq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mrel">≥</span></span></span></span> 80%</td>
+</tr>
+<tr>
+<td style="text-align:center">2级(中度)</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">50%-79%</td>
+</tr>
+<tr>
+<td style="text-align:center">3级(重度)</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">30%-49%</td>
+</tr>
+<tr>
+<td style="text-align:center">4级(极重度)</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&lt;</mo></mrow><annotation encoding="application/x-tex">&lt;</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&lt;</span></span></span></span> 30%</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>症状评估(呼吸困难指数, mMRC分级)
+<table>
+<thead>
+<tr>
+<th style="text-align:center">分级</th>
+<th style="text-align:left">症状</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">0级</td>
+<td style="text-align:left">剧烈活动时出现呼吸困难</td>
+</tr>
+<tr>
+<td style="text-align:center">1级</td>
+<td style="text-align:left">平地快步行走/爬缓坡时出现呼吸困难</td>
+</tr>
+<tr>
+<td style="text-align:center">2级</td>
+<td style="text-align:left">由于呼吸困难，平地行走时比同龄人慢/需要停下来休息</td>
+</tr>
+<tr>
+<td style="text-align:center">3级</td>
+<td style="text-align:left">平地行走100m左右/数分钟后即需要停下来喘气</td>
+</tr>
+<tr>
+<td style="text-align:center">4级</td>
+<td style="text-align:left">因严重呼吸困难而不能离开家，或在穿衣服时即感到呼吸困难</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>急性加重风险评估(风险 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> GOLD分级, 症状 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> mMRC分级)
+<table>
+<thead>
+<tr>
+<th style="text-align:center">分组</th>
+<th style="text-align:left">特征</th>
+<th style="text-align:center">上一年急性加重次数</th>
+<th style="text-align:center">GOLD分级</th>
+<th style="text-align:center">mMRC分级</th>
+<th style="text-align:left">首选药</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">A</td>
+<td style="text-align:left">低风险, 症状少</td>
+<td style="text-align:center"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>≤</mo></mrow><annotation encoding="application/x-tex">\leq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mrel">≤</span></span></span></span> 1次</td>
+<td style="text-align:center">1-2</td>
+<td style="text-align:center">0-1</td>
+<td style="text-align:left">必要时选用 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>S</mi><mi>A</mi><mi>B</mi><mi>A</mi><mi mathvariant="normal">/</mi><mi>S</mi><mi>A</mi><mi>M</mi><mi>A</mi></mrow><annotation encoding="application/x-tex">SABA/SAMA</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord mathnormal">A</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.05764em;">S</span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mord mathnormal">A</span></span></span></span></td>
+</tr>
+<tr>
+<td style="text-align:center">B</td>
+<td style="text-align:left">低风险, 症状多</td>
+<td style="text-align:center"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>≤</mo></mrow><annotation encoding="application/x-tex">\leq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mrel">≤</span></span></span></span> 1次</td>
+<td style="text-align:center">1-2</td>
+<td style="text-align:center"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>≥</mo></mrow><annotation encoding="application/x-tex">\geq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mrel">≥</span></span></span></span> 2</td>
+<td style="text-align:left"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mi>A</mi><mi>B</mi><mi>A</mi><mi mathvariant="normal">/</mi><mi>L</mi><mi>A</mi><mi>M</mi><mi>A</mi></mrow><annotation encoding="application/x-tex">LABA/LAMA</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">L</span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord mathnormal">A</span><span class="mord">/</span><span class="mord mathnormal">L</span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mord mathnormal">A</span></span></span></span></td>
+</tr>
+<tr>
+<td style="text-align:center">C</td>
+<td style="text-align:left">高风险, 症状少</td>
+<td style="text-align:center"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>≥</mo></mrow><annotation encoding="application/x-tex">\geq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mrel">≥</span></span></span></span> 2次</td>
+<td style="text-align:center">3-4</td>
+<td style="text-align:center">0-1</td>
+<td style="text-align:left"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi><mi>C</mi><mi>S</mi><mo>+</mo><mi>L</mi><mi>A</mi><mi>B</mi><mi>A</mi><mi mathvariant="normal">/</mi><mi>L</mi><mi>A</mi><mi>M</mi><mi>A</mi></mrow><annotation encoding="application/x-tex">ICS + LABA/LAMA</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mord mathnormal" style="margin-right:0.05764em;">CS</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">L</span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord mathnormal">A</span><span class="mord">/</span><span class="mord mathnormal">L</span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mord mathnormal">A</span></span></span></span></td>
+</tr>
+<tr>
+<td style="text-align:center">D</td>
+<td style="text-align:left">高风险, 症状多</td>
+<td style="text-align:center"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>≥</mo></mrow><annotation encoding="application/x-tex">\geq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mrel">≥</span></span></span></span> 2次</td>
+<td style="text-align:center">3-4</td>
+<td style="text-align:center"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>≥</mo></mrow><annotation encoding="application/x-tex">\geq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719em;vertical-align:-0.136em;"></span><span class="mrel">≥</span></span></span></span> 2</td>
+<td style="text-align:left"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>I</mi><mi>C</mi><mi>S</mi><mo>+</mo><mi>L</mi><mi>A</mi><mi>B</mi><mi>A</mi><mi mathvariant="normal">/</mi><mi>L</mi><mi>A</mi><mi>M</mi><mi>A</mi></mrow><annotation encoding="application/x-tex">ICS + LABA/LAMA</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal" style="margin-right:0.07847em;">I</span><span class="mord mathnormal" style="margin-right:0.05764em;">CS</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">L</span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="mord mathnormal">A</span><span class="mord">/</span><span class="mord mathnormal">L</span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.10903em;">M</span><span class="mord mathnormal">A</span></span></span></span></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<h2 id="6-肺炎经验型治疗药物类型-选择原则">6. 肺炎经验型治疗药物类型, 选择原则 </h2>
+<h3 id="61-经验型治疗药物类型">6.1. 经验型治疗药物类型 </h3>
+<p>经验性治疗: 覆盖铜绿假单胞菌、不动杆菌、产ESBLs肠杆菌科、MRSA</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>1</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 左氧氟沙星/环丙沙星 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>2</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 氨基糖苷类+抗假单胞菌 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05278em;">β</span></span></span></span> -内酰胺类/广谱 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05278em;">β</span></span></span></span> -内酰胺类/ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05278em;">β</span></span></span></span> -内酰胺酶抑制剂 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mn>3</mn><mo>◯</mo></mover></mrow><annotation encoding="application/x-tex">\textcircled{3}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8889em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span></span></span><span style="top:-3.1944em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body accent-full" style="left:0em;top:.2em;"><span class="mord">◯</span></span></span></span></span></span></span></span></span></span> 碳青霉烯类</p>
+<h3 id="62-选择原则">6.2. 选择原则 </h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">常见病原体</th>
+<th style="text-align:left">初始经验性治疗的抗菌药物选择</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">青壮年、无基础疾病的患者</td>
+<td style="text-align:center">肺炎链球菌, 肺炎支原体, 流感嗜血杆菌, 肺炎衣原体等</td>
+<td style="text-align:left">① 青霉素类(青霉素, 阿莫西林) ② 多西环素(强力霉素) ③ 大环内酯 ④ 一二代头孢菌素 ⑤ 呼吸喹诺酮类(左氧氟沙星, 莫西沙星)</td>
+</tr>
+<tr>
+<td style="text-align:center">老年人或有基础疾病的患者</td>
+<td style="text-align:center">肺炎链球菌, 流感嗜血杆菌, 需氧G-杆菌, 金葡菌, 卡他莫拉菌</td>
+<td style="text-align:left">① 二代头孢(头孢呋辛, 头孢丙烯, 头孢洛克) 单用或联合大环内酯类 ② <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05278em;">β</span></span></span></span>-内酰胺类/ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05278em;">β</span></span></span></span>-内酰胺酶抑制剂(阿莫西林/克拉维酸, 氨苄西林/舒巴坦)单用或联合大环内酯类 ③ 呼吸喹诺酮类</td>
+</tr>
+<tr>
+<td style="text-align:center">需入院治疗但不必收住ICU的患者</td>
+<td style="text-align:center">肺炎链球菌, 流感嗜血杆菌, 混合感染(包括厌氧), 需氧G-杆菌, 金葡菌, 肺炎支原体, 肺炎衣原体, 呼吸道病毒</td>
+<td style="text-align:left">① 静注二代头孢单用或联合静脉注射大环内酷类; ② 静注呼吸喹诺酮类; ③ 静注<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05278em;">β</span></span></span></span>-内酰胺类/<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05278em;">β</span></span></span></span>-内酰胺酶抑制剂(阿莫西林／克拉维酸、氨苄西林/舒巴坦)单用或联合静脉注射大环内酯类; ④ 头孢噻肟, 头孢曲松单用或联合静注大环内酯类</td>
+</tr>
+<tr>
+<td style="text-align:center">ICU A组(无铜绿感染危险因素)</td>
+<td style="text-align:center">肺炎链球菌, 需氧G-杆菌, 嗜肺军团菌, 肺炎支原体, 流感嗜血杆菌, 金葡菌等</td>
+<td style="text-align:left">① 头孢曲松或头孢噻肟联合静注大环内酯类; ② 静注呼吸喹诺酮类联合氨基糖苷类; ③ 静注<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05278em;">β</span></span></span></span>-内酰胺类/<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05278em;">β</span></span></span></span>-内酰胺酶抑制剂(如阿莫西林/克拉维酸, 氨苄西林/舒巴坦)联合静脉注射大环内酯类; ④ 厄他培南联合静注大环内酯类</td>
+</tr>
+<tr>
+<td style="text-align:center">ICU B组(有铜绿感染危险因素)</td>
+<td style="text-align:center">A组常见病原体 + 铜绿</td>
+<td style="text-align:left">① 具有抗假单胞菌活性的<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05278em;">β</span></span></span></span>-内酰胺类抗生素(头孢他啶、头孢吡肟、哌拉西林/他唑巴坦、头孢哌酮/舒巴坦、亚胺培南、美罗培南等)联合静注大环内酯类, 必要时还可同时联用氨基糖苷类; ② 具有抗假单胞菌活性的<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>β</mi></mrow><annotation encoding="application/x-tex">\beta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05278em;">β</span></span></span></span>-内酰胺类抗生素联合静注喹诺酮类; ③ 静注环丙沙星或左氧氟沙星联合氨基糖苷类</td>
+</tr>
+</tbody>
+</table>
+<h2 id="7-临床上出现哪些症状提示高度考虑肺癌">7. 临床上出现哪些症状提示高度考虑肺癌 </h2>
+<ul>
+<li>原发肿瘤引起
+<ul>
+<li>咳嗽：早期症状、表现各异；大气道肿瘤多表现为阵发性刺激性呛咳而无痰, BAC表现为大量浆液痰；在咳嗽性质改变(特别出现金属音) 时需警惕</li>
+<li><strong>咯血</strong>：中央型肺癌多见；量少、间断性、痰中带血多见</li>
+<li>喘鸣和胸闷气急</li>
+<li>胸痛：部分没有直接侵犯胸膜和胸壁的肺癌也可表现出胸痛，原因不明</li>
+<li>发热：见于阻塞性肺炎(抗菌治疗有效)、<strong>癌性热</strong>(抗菌治疗无效)</li>
+<li>消瘦、<strong>恶病质</strong></li>
+</ul>
+</li>
+<li>肺外胸内扩展引起
+<ul>
+<li>胸痛：侵犯壁胸膜 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 隐痛 &amp;随呼吸/咳嗽加重；侵犯肋骨/脊柱 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 持续明显疼痛 &amp; 与呼吸/咳嗽无关</li>
+<li>呼吸困难：可有三凹征</li>
+<li>吞咽困难</li>
+<li>声音嘶哑</li>
+<li><strong>同侧膈肌麻痹</strong></li>
+<li><strong>上腔静脉阻塞综合征</strong>：肿瘤压迫上腔静脉使之回流受阻 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 胸壁静脉曲张(交通支开放所致)、上肢/面颈部水肿、皮肤可呈暗紫色、结膜出血、视力模糊、头晕</li>
+<li><strong>Horner综合征</strong>: 肺上沟瘤(Pancost瘤)侵犯/压迫颈交感神经 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 患侧眼睑下垂、结膜充血、瞳孔缩小、眼球内陷、额部无汗、感觉异常</li>
+<li><strong>臂丛神经压迫征</strong>：同侧自腋下向上肢内侧放射性、烧灼样痛(夜间尤甚)</li>
+<li><strong>心包积液</strong></li>
+</ul>
+</li>
+<li>胸外转移引起
+<ul>
+<li>中枢神经系统转移：颅内压 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>↑</mo></mrow><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mrel">↑</span></span></span></span> 症状、中枢症状、脊髓束受压迫症状</li>
+<li>肝转移: 食欲减退、肝大、肝区疼痛、黄疸、腹水</li>
+<li>骨转移：骨痛、血清ALP <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>↑</mo></mrow><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mrel">↑</span></span></span></span> 、高血钙</li>
+<li>肾上腺转移：视其激素分泌情况而出现相应表现</li>
+<li>淋巴结转移：如锁骨上淋巴结(尤其是右侧)</li>
+</ul>
+</li>
+<li>肺外表现/副癌综合征
+<ul>
+<li>异位内分泌综合征
+<ul>
+<li>分泌ADH(SIADH)：低钠、低渗透压血症 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> 嗜睡、定向障碍、昏迷</li>
+<li>分泌ACTH：不典型库欣综合征表现</li>
+<li>分泌甲状旁腺样激素：高钙血症</li>
+<li>分泌 5-HT (类癌综合征)哮鸣样支气管痉挛+皮肤潮红+水样腹泻+阵发性心动过速；多见于燕麦细胞癌</li>
+<li>分泌促性腺激素：大细胞肺癌多见</li>
+</ul>
+</li>
+<li>骨骼结缔组织综合征
+<ul>
+<li><strong>肥大性肺性骨关节病</strong>：NSCLC多见；表现为杵状指、肥大性骨关节病变</li>
+<li><strong>神经肌肉综合征</strong>：SCLC多见；表现为多发性周围神经炎、肌无力样综合征(lambert eaton syndrome)、小脑变性</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
