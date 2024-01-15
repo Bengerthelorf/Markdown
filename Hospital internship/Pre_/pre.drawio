@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2024-01-15T11:55:29.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="bZKNkyQDeLh3XzmnCp44" version="22.1.18" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="956" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="HAnIHAp7UrKWVlWq-JfI-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="&lt;u&gt;&lt;i&gt;2021.7：首次入院&lt;/i&gt;&lt;/u&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HAnIHAp7UrKWVlWq-JfI-1" target="HAnIHAp7UrKWVlWq-JfI-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-1" value="&lt;i&gt;&lt;u&gt;2021.9：明确&lt;/u&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HAnIHAp7UrKWVlWq-JfI-3" target="HAnIHAp7UrKWVlWq-JfI-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-3" value="2021.11：靶向治疗" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HAnIHAp7UrKWVlWq-JfI-5" target="HAnIHAp7UrKWVlWq-JfI-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-5" value="2021.12：保肝药物" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HAnIHAp7UrKWVlWq-JfI-7" target="HAnIHAp7UrKWVlWq-JfI-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-7" value="2022.3：部分缓解" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="320" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HAnIHAp7UrKWVlWq-JfI-9" target="HAnIHAp7UrKWVlWq-JfI-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-9" value="2022.7：肝功好转" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="320" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HAnIHAp7UrKWVlWq-JfI-11" target="HAnIHAp7UrKWVlWq-JfI-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-11" value="&lt;i&gt;&lt;u&gt;2022.10：病情进展&lt;/u&gt;&lt;/i&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="320" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JBXYfUSfzTzvXOqz5Z-Z-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HAnIHAp7UrKWVlWq-JfI-13" target="HAnIHAp7UrKWVlWq-JfI-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-13" value="2022.11：颅内病灶减少" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="315" y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HAnIHAp7UrKWVlWq-JfI-15" target="HAnIHAp7UrKWVlWq-JfI-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-15" value="2022.12-2023.4：&lt;br&gt;病情稳定，好转" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="480" y="80" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HAnIHAp7UrKWVlWq-JfI-17" target="HAnIHAp7UrKWVlWq-JfI-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-17" value="&lt;i&gt;&lt;u&gt;2023.5-2023.7：&lt;br&gt;再次进展，密切监测&lt;/u&gt;&lt;/i&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="480" y="200" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-19" value="&lt;i&gt;&lt;u&gt;2023.7.18：穿刺活检&lt;/u&gt;&lt;/i&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="490" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JBXYfUSfzTzvXOqz5Z-Z-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HAnIHAp7UrKWVlWq-JfI-27" target="HAnIHAp7UrKWVlWq-JfI-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-27" value="2023.11.14：肺部进展" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="655" y="160" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-29" value="2023.12.12：部分缓解" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="655" y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JBXYfUSfzTzvXOqz5Z-Z-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HAnIHAp7UrKWVlWq-JfI-21" target="HAnIHAp7UrKWVlWq-JfI-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HAnIHAp7UrKWVlWq-JfI-21" value="&lt;i&gt;&lt;u&gt;2023.8.2; &lt;br&gt;2023.8.22; &lt;br&gt;2023.9.16; 2023.10.17：&lt;br&gt;改用化疗&lt;/u&gt;&lt;/i&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="660" y="240" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JBXYfUSfzTzvXOqz5Z-Z-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.009;entryY=0.838;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HAnIHAp7UrKWVlWq-JfI-19" target="HAnIHAp7UrKWVlWq-JfI-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
