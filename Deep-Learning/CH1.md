@@ -39,6 +39,8 @@ Email: <deeplearning.fudan@yandex.com>
   - Huge efforts to code, debug, read and think;
   - Worth doing it!!
 
+> ***重点为花书的第一二部分!!!***
+
 ### 1.2. Conferences
 
 - OpenAI 网站
@@ -155,6 +157,8 @@ Email: <deeplearning.fudan@yandex.com>
 
 ### 3.1. CNN
 
+> 提取表征, 以其足以代表整个的事物的状态.
+
 - CNN 各层实际上的输入的数据的可视化:
   ![CNN各层实际上的输入的数据的可视化](https://dsm04pap003files.storage.live.com/y4mCt4Y9P9o8Elp5VAPRz_b2WFM_8CY6spITt-fEO4liM9jr91ySE5RLX4YJQ1pR-sNFr_NkXqmEsZrq1NNMI_Bc0CJNn3tG74d2zk6STNLqiCm45_PbUQirpbSBjGpNNdx6jvKwi88Sa1dwb7fYrgnh901ke3BLMVxlUPDUhAdGrKA7w3uLtBfzeqk7cQvSlQn?width=993&height=783&cropmode=none)
   You can see it, with the increase in layers the detailed features of the images increase. At the very beginning, the images are just matrixes of pixels, but at the end, the images are matrixes of features. You can kinda recognize the objects in the image and eventually their identity is found by CNN.
@@ -205,6 +209,17 @@ Here is a table that compares shallow learning and deep learning based on some c
 - STIP
 - SLAM
 
+#### 5.2 historical trends: Growing Datasets
+
+> P.S. 游戏引擎用于生成数据, 以用于训练模型
+
+#### 5.3 One-shot Vector V.S. Distributed Representation
+
+- One-shot Vector
+  - 一个词对应一个向量
+
+#### 5.4 Word Embedding
+
 ## 6. 发展历史
 
 ![Brief History of AI](https://dsm04pap003files.storage.live.com/y4m55sWvC2yZZBn2ZZiW75vGyMRaOok8mmPTEu9JJyJQGc1eqQbzbK5_FCV-22Y30nizpIA4BYOt0FbWEjD2hhzRF6Tw82FZ3sgOC8EG1b3AjqgJFaXNaQoqGLQ9FP-mYX05pZjLGYr9ClNZWgTgWYnEjkajdEIXl1Lal0tfHcMmRcixv98ipN5N0VyFGpgjmq0?width=1711&height=400&cropmode=none)
@@ -221,6 +236,7 @@ Here is a table that compares shallow learning and deep learning based on some c
     - 梯度弥散问题通过ReLU、Dropout、Deep Residual Learning等⽅法得到缓解
   - 数据规模
     - 真正意义上的⼤数据出现==社会标注(crowdsourcing)机制==出现
+    > 可以通过游戏引擎生成大量数据
   - 计算能⼒
     - CPU、GPU的⻓⾜进步
     - 共享权值
@@ -248,9 +264,6 @@ Autodrive's Objection detection and sagmention already can segmente object in "3
 回去看看统计学习
 
 ——花书 Ch5
-
-- 前五章是ML, 要先读懂捏, 寄寄
-- 寄寄力, 寄寄子, 要寄寄力, 呜呜呜
 
 CS231n *FEIFEI LEE*, computer vision. suitable for selfteaching
 
