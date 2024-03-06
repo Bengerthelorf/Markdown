@@ -26,3 +26,21 @@ OpenAI的选择.
 ### Unigram language modeling tokenization
 
 ### WordPiece
+
+## Minimum Edit Distance
+
+$$
+\begin{align*}
+X_i & = \text{the first i characters of X} \\
+Y_j & = \text{the first j characters of Y} \\
+D(i, j) & = \text{the minimum edit distance between } X_i \text{ and } Y_j \\
+& \text{i: the first i characters of X} \\
+& \text{j: the first j characters of Y} \\
+\end{align*}
+$$
+
+$$
+\begin{pmatrix}
+N & 9 & 8 & 9 & 10 & 11 & 12 & 11 & 10 & 9 & 8 \\
+\end{pmatrix}
+$$
