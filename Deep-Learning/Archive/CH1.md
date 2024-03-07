@@ -267,14 +267,14 @@ Autodrive's Objection detection and sagmention already can segmente object in "3
 
 CS231n *FEIFEI LEE*, computer vision. suitable for selfteaching
 
-> to-do list:
->
-> - [ ] ch1
-> - [ ] ch2
-> - [ ] ch3
-> - [ ] ch4
-> - [ ] ch5
-> - [ ] CS231n
+to-do list:
+
+- [x] ch1
+- [ ] ch2
+- [ ] ch3
+- [ ] ch4
+- [ ] ch5
+- [ ] CS231n
 
 ## 9. Footnote
 
