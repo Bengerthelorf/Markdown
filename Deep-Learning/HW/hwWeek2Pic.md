@@ -3,6 +3,8 @@
 HW week2
 -
 
+</center>
+
 ![page1](https://dsm04pap003files.storage.live.com/y4mFGqaqLfUP0Z_dioC2w3ctD0loqOLUf1AEdyh-aK7bdlABxrOVC6T-2aeH2LcxwvmoTLvr9aq1EAq-X_QcnMbo5Prsv4gyyTsJNFeEHZ0RJV54XSIhamEjFBbO--L9EKrpfJD852PyFwLcioKlsSjLHL40Hk96FAMVLFYYwMz5f35J_tg5CynH8nDVwbtcXzV?width=4032&height=3024&cropmode=none)
 
 ![page2](https://dsm04pap003files.storage.live.com/y4mG9J4ftxyuvYHRIKsrCmxWgBlScNkJ1y3OdilbZHXj0KFYyVmZ3lJ0EUxHzvHosZBZaZughgIz2CQ5lzKUf5l4FUelME5f8qUn5r3lf-HM3L5wj0cE5XxGiEZon-u4YJJi0W8QzwtrL_AGyBmCFdShCRT8KcqSdXIYw0Ub7Jd1OR-IuBkFbrH5oIe-zKQvs7Q?width=4032&height=3024&cropmode=none)
